@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import UsersList from './UsersList';
+import Search from './Search';
 
 
 
@@ -33,7 +34,7 @@ class App extends React.Component {
         return (
             <div>
                 <h1>SmartCrm2.0 działa !</h1>
-                <input onChange={this.filterUsers}/>
+                <Search change={this.filterUsers}/>
                 <UsersList users={this.state.filteredUsers}/>
             </div>
         )
