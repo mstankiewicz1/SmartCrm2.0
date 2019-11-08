@@ -5,7 +5,27 @@ import Search from './Search';
 
 
 
-const allUsers = ['Marek', 'Ania', 'Joanna', 'Bartosz', 'Michał'];
+const allUsers = [{
+                    id: 0,
+                    name: 'Marek',
+                    surname: 'Stankiewicz'
+                    },
+                    {
+                    id: 1,
+                    name: 'Joanna',
+                    surname: 'Nowak'
+                    },
+                    {
+                    id: 2,
+                    name: 'Bartosz',
+                    surname: 'Lubomirski'
+                    },
+                    {
+                    id: 3,
+                    name: 'Agnieszka',
+                    surname: 'Marianowska'
+                    },
+                ];
 
 class App extends React.Component {
 
@@ -18,15 +38,14 @@ class App extends React.Component {
 
 
     filterUsers = (e) => {
-        const text = e.target.value;
-        const filteredUsers = this.getFilteredUsersForText(text);
+        e.preventDefault();
+        const name = e.target.value;
+        const filteredUsers = allUsers.filter(function (user) {
+            return user.name.toLowerCase().includes(name.toLowerCase());
+        });
         this.setState({
             filteredUsers
-        })
-    };
-
-    getFilteredUsersForText = (text) => {
-        return allUsers.filter(user => user.toLowerCase().includes(text.toLowerCase()));
+        });
     };
 
 
