@@ -25,6 +25,11 @@ const allUsers = [{
                     name: 'Agnieszka',
                     surname: 'Marianowska'
                     },
+                    {
+                    id: 4,
+                    name: 'Julia',
+                    surname: 'Rzeszowska'
+                    },
                 ];
 
 class App extends React.Component {
@@ -39,9 +44,9 @@ class App extends React.Component {
 
     filterUsers = (e) => {
         e.preventDefault();
-        const name = e.target.value;
+        const surname = e.target.value;
         const filteredUsers = allUsers.filter(function (user) {
-            return user.name.toLowerCase().includes(name.toLowerCase());
+            return user.surname.toLowerCase().includes(surname.toLowerCase());
         });
         this.setState({
             filteredUsers
