@@ -42,7 +42,7 @@ class App extends React.Component {
 
 
     state = {
-      filteredUsers: allUsers
+      filteredUsers: allUsers,
     };
 
 
