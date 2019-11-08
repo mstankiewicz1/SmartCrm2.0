@@ -4,7 +4,7 @@ import React from 'react';
 const UsersList = (props) => {
 
 
-    if (props.users.length > 0) {
+    if (props.users.length === 1) {
         return (
             <div>
                 {props.users.map( user =>

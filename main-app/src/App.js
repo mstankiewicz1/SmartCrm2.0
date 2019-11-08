@@ -8,27 +8,32 @@ import Search from './Search';
 const allUsers = [{
                     id: 0,
                     name: 'Marek',
-                    surname: 'Stankiewicz'
+                    surname: 'Stankiewicz',
+                    pesel: 86032416316
                     },
                     {
                     id: 1,
                     name: 'Joanna',
-                    surname: 'Nowak'
+                    surname: 'Nowak',
+                    pesel: 12345678901
                     },
                     {
                     id: 2,
                     name: 'Bartosz',
-                    surname: 'Lubomirski'
+                    surname: 'Lubomirski',
+                    pesel: 23456789012
                     },
                     {
                     id: 3,
                     name: 'Agnieszka',
-                    surname: 'Marianowska'
+                    surname: 'Marianowska',
+                    pesel: 34567890123
                     },
                     {
                     id: 4,
                     name: 'Julia',
-                    surname: 'Rzeszowska'
+                    surname: 'Rzeszowska',
+                    pesel: 45678901234
                     },
                 ];
 
@@ -44,13 +49,15 @@ class App extends React.Component {
 
     filterUsers = (e) => {
         e.preventDefault();
-        const surname = e.target.value;
+        const pesel = e.target.value;
         const filteredUsers = allUsers.filter(function (user) {
-            return user.surname.toLowerCase().includes(surname.toLowerCase());
+            return user.pesel === parseInt(pesel);
         });
-        this.setState({
-            filteredUsers
-        });
+        if (pesel.length === 11) {
+            this.setState({
+                filteredUsers
+            });
+        }
     };
 
 
