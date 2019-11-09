@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.search {
+    background-color: red;
+}
+
+.usersList {
+    background-color: orange;
+}
+
+.user {
+    background-color: yellow;
+}
+

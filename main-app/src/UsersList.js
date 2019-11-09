@@ -7,22 +7,19 @@ const UsersList = (props) => {
 
     if (props.users.length === 1) {
         return (
-            <div>
+            <div className="usersList">
                 {props.users.map( user =>
                     <User
                         key={user.id}
                         user={user}
                         name={props.name}
                         surname={props.surname}
-                        current={props.current}
                     />
                 )}
             </div>
         )
     } else {
-        return (
-            <p>Brak wyników szukania !</p>
-        )
+        return null
     }
 };
 

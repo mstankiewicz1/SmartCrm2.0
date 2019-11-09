@@ -4,14 +4,12 @@ import React from 'react';
 const User = (props) => {
 
 
-
-    const {name, surname, id} = props.user;
+    const {name, surname} = props.user;
 
         return (
-            <div>
-                <div onClick={() => props.current(id)}>{name}<span> </span>{surname}</div>
-            </div>
-        )
+                <div className="user">{name}<span> </span>{surname}</div>
+        );
+
 };
 
 export default User;

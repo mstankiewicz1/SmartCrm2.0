@@ -5,7 +5,7 @@ const Search = (props) => {
 
 
     return (
-        <div>
+        <div className="search">
            <input type="search" placeholder="Wpisz numer pesel" onChange={props.change}/>
         </div>
     )
