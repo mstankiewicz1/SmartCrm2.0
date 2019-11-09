@@ -5,12 +5,11 @@ const User = (props) => {
 
 
 
-
-    const {name, surname} = props.user;
+    const {name, surname, id} = props.user;
 
         return (
             <div>
-                <p>{name}<span> </span>{surname}</p>
+                <div onClick={() => props.current(id)}>{name}<span> </span>{surname}</div>
             </div>
         )
 };

@@ -60,13 +60,17 @@ class App extends React.Component {
         }
     };
 
+    currentUser = (id) => {
+        console.log("Wybrano usera o id " + id);
+    };
+
 
     render() {
         return (
             <div>
                 <h1>SmartCrm2.0 działa !</h1>
                 <Search change={this.filterUsers}/>
-                <UsersList users={this.state.filteredUsers}/>
+                <UsersList users={this.state.filteredUsers} current={this.currentUser}/>
             </div>
         )
     }

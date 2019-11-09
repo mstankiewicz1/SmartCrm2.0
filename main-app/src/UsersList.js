@@ -14,6 +14,7 @@ const UsersList = (props) => {
                         user={user}
                         name={props.name}
                         surname={props.surname}
+                        current={props.current}
                     />
                 )}
             </div>
