@@ -1,4 +1,5 @@
 import React from 'react';
+import User from './User';
 
 
 const UsersList = (props) => {
@@ -8,10 +9,12 @@ const UsersList = (props) => {
         return (
             <div>
                 {props.users.map( user =>
-                    <li key={user.id}>
-                        {user.name}
-                        {user.surname}
-                    </li>
+                    <User
+                        key={user.id}
+                        user={user}
+                        name={props.name}
+                        surname={props.surname}
+                    />
                 )}
             </div>
         )
