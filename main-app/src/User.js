@@ -7,7 +7,9 @@ const User = (props) => {
     const {name, surname} = props.user;
 
         return (
-                <div className="user">{name}<span> </span>{surname}</div>
+                    <div>
+                        <div className="user">{name}<span> </span>{surname}</div>
+                    </div>
         );
 
 };
