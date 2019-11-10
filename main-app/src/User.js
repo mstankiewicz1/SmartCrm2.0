@@ -4,7 +4,7 @@ import React from 'react';
 const User = (props) => {
 
 
-    const {name, surname, pesel, mobilePhone, landlinePhone, email, numberAccount} = props.user;
+    const {name, surname, pesel, mobilePhone, landlinePhone, email, numberAccount, accountIncome} = props.user;
 
         return (
                     <div>
@@ -28,6 +28,14 @@ const User = (props) => {
                         </div>
                         <div className="cleanDataUser">
                             <button onClick={() => props.delete()}>Wyczyść dane klienta</button>
+                        </div>
+                        <div className="incomeSection">
+                            <ul>
+                                <p>Dochodowość:</p>
+                                <span>{accountIncome}</span>
+
+
+                            </ul>
                         </div>
                     </div>
         );

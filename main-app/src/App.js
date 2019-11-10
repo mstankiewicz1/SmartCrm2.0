@@ -13,7 +13,8 @@ const allUsers = [{
                     mobilePhone: 123456789,
                     landlinePhone: 221234567,
                     email: 'zxcccv@gmail.com',
-                    numberAccount: 1234568,
+                    numberAccount: 12345678,
+                    accountIncome: 125000,
                     },
                     {
                     id: 1,
@@ -24,6 +25,7 @@ const allUsers = [{
                     landlinePhone: 222345678,
                     email: 'bdfbbd@gmail.com',
                     numberAccount: 23456789,
+                    accountIncome: 150000,
                     },
                     {
                     id: 2,
@@ -34,6 +36,7 @@ const allUsers = [{
                     landlinePhone: 223456789,
                     email: 'gergdfg@gmail.com',
                     numberAccount: 34567890,
+                    accountIncome: 175000,
                     },
                     {
                     id: 3,
@@ -44,6 +47,7 @@ const allUsers = [{
                     landlinePhone: 224567890,
                     email: 'nnin@gmail.com',
                     numberAccount: 45678901,
+                    accountIncome: 200000,
                     },
                     {
                     id: 4,
@@ -54,6 +58,7 @@ const allUsers = [{
                     landlinePhone: 225678901,
                     email: 'hdgfgfdgfdcv@gmail.com',
                     numberAccount: 56789012,
+                    accountIncome: 225000,
                     },
                 ];
 
@@ -82,7 +87,7 @@ class App extends React.Component {
 
     deleteUser = () => {
       this.setState({
-          filteredUsers: []
+          filteredUsers: [],
       })
     };
 
@@ -101,6 +106,9 @@ class App extends React.Component {
                         <p className="headerAccountingNumbers">Numery rachunków</p>
                     </div>
                         <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
+                    <div className="financialData">
+                        <p>Dane Finansowe</p>
+                    </div>
             </div>
         )
     }

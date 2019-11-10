@@ -20,6 +20,7 @@ const UsersList = (props) => {
                         email={props.email}
                         numberAccount={props.numberAccount}
                         delete={props.delete}
+                        accountIncome={props.accountIncome}
                     />
                 )}
             </div>
