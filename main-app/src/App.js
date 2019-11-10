@@ -10,35 +10,35 @@ const allUsers = [{
                     name: 'Marek',
                     surname: 'Stankiewicz',
                     pesel: 86032416316,
-                    active: false
+                    mobilePhone: 123456789
                     },
                     {
                     id: 1,
                     name: 'Joanna',
                     surname: 'Nowak',
                     pesel: 12345678901,
-                    active: false
+                    mobilePhone: 234567890
                     },
                     {
                     id: 2,
                     name: 'Bartosz',
                     surname: 'Lubomirski',
                     pesel: 23456789012,
-                    active: false
+                    mobilePhone: 345678901
                     },
                     {
                     id: 3,
                     name: 'Agnieszka',
                     surname: 'Marianowska',
                     pesel: 34567890123,
-                    active: false
+                    mobilePhone: 456789012
                     },
                     {
                     id: 4,
                     name: 'Julia',
                     surname: 'Rzeszowska',
                     pesel: 45678901234,
-                    active: false
+                    mobilePhone: 567890123
                     },
                 ];
 
@@ -70,7 +70,16 @@ class App extends React.Component {
         return (
             <div className="app">
                     <Search change={this.filterUsers}/>
-                    <UsersList users={this.state.filteredUsers}/>
+                    <div className="dataPerson">
+                        <p className="headerOwner">Właściciel</p>
+                    </div>
+                    <div className="dataContact">
+                        <p className="headerContactData">Dane kontaktowe</p>
+                    </div>
+                    <div className="AccountingNumbers">
+                        <p className="headerAccountingNumbers">Numery rachunków</p>
+                    </div>
+                        <UsersList users={this.state.filteredUsers}/>
             </div>
         )
     }

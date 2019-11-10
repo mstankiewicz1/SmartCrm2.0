@@ -64,6 +64,41 @@ input.search {
     margin: 0;
 }
 
+.dataPerson {
+    width: 33.3%;
+    border: 2px solid pink;
+    text-align: center;
+    display: inline;
+    float: left;
+    background-color: chocolate;
+}
+
+.dataContact {
+    width: 33.3%;
+    border: 2px solid pink;
+    text-align: center;
+    display: inline;
+    float: left;
+    background-color: chocolate;
+}
+
+.headerOwner, .headerContactData, .headerAccountingNumbers {
+    display: inline;
+}
+
+.AccountingNumbers {
+    width: 33.3%;
+    border: 2px solid pink;
+    text-align: center;
+    display: inline;
+    float: left;
+    background-color: chocolate;
+}
+
+
+
+
+
 
 
 

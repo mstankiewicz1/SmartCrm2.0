@@ -8,13 +8,14 @@ const UsersList = (props) => {
     if (props.users.length === 1) {
         return (
             <div className="usersList">
-                <p>Właściciel</p>
                 {props.users.map( user =>
                     <User
                         key={user.id}
                         user={user}
                         name={props.name}
                         surname={props.surname}
+                        pesel={props.pesel}
+                        mobilePhone={props.mobilePhone}
                     />
                 )}
             </div>
