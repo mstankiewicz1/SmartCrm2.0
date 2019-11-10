@@ -181,8 +181,13 @@ p.accountNumber {
     right: 0;
 }
 
-.incomeSection p {
+ul {
+    list-style-type: none;
+}
+
+.incomeSection ul li {
     text-align: center;
+    
 }
 
 

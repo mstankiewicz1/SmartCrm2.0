@@ -31,8 +31,9 @@ const User = (props) => {
                         </div>
                         <div className="incomeSection">
                             <ul>
-                                <p>Dochodowość:</p>
-                                <span>{accountIncome}</span>
+                                <li>Dochodowość:
+                                    <span>{accountIncome}</span>
+                                </li>
 
 
                             </ul>
