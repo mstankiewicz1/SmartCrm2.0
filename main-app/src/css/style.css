@@ -95,6 +95,33 @@ input.search {
     background-color: chocolate;
 }
 
+.dataPersonFromProps {
+    width: 33.3%;
+    height: 100px;
+    background-color: cyan;
+    border: 2px solid orange;
+    display: inline;
+    float: left;
+}
+
+.dataPersonFromProps .nameAndSurname, .pesel, .mobilePhone, .landlinePhone {
+    text-align: center;
+}
+
+.dataContactFromProps {
+    width: 33.3%;
+    height: 100px;
+    background-color: cyan;
+    border: 2px solid orange;
+    display: inline;
+    float: left;
+}
+
+.dataContactFromProps .mobilePhone, .landlinePhone, .email {
+    text-align: center;
+    line-height: 0.2cm;
+}
+
 
 
 

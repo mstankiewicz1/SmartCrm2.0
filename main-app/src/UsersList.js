@@ -16,6 +16,8 @@ const UsersList = (props) => {
                         surname={props.surname}
                         pesel={props.pesel}
                         mobilePhone={props.mobilePhone}
+                        landlinePhone={props.landlinePhone}
+                        email={props.email}
                     />
                 )}
             </div>
