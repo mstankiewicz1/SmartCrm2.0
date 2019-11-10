@@ -80,6 +80,12 @@ class App extends React.Component {
         }
     };
 
+    deleteUser = () => {
+      this.setState({
+          filteredUsers: []
+      })
+    };
+
 
     render() {
         return (
@@ -94,7 +100,7 @@ class App extends React.Component {
                     <div className="AccountingNumbers">
                         <p className="headerAccountingNumbers">Numery rachunków</p>
                     </div>
-                        <UsersList users={this.state.filteredUsers}/>
+                        <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
             </div>
         )
     }

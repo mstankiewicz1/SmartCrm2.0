@@ -35,6 +35,7 @@
     float: left;
     margin: 0 auto;
     border: 2px solid black;
+    position: relative;
 }
 
 input.search {
@@ -48,6 +49,7 @@ input.search {
     margin-top: 3px;
     margin-bottom: 4px;
     font-size: 20px;
+    border-radius: 5px;
 }
 
 .logSection {
@@ -135,6 +137,22 @@ input.search {
 
 p.accountNumber {
     margin: 0;
+}
+
+.cleanDataUser {
+    width: 170px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    margin-left: 43vw;
+}
+
+.cleanDataUser button {
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 

@@ -19,6 +19,7 @@ const UsersList = (props) => {
                         landlinePhone={props.landlinePhone}
                         email={props.email}
                         numberAccount={props.numberAccount}
+                        delete={props.delete}
                     />
                 )}
             </div>

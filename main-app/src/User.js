@@ -26,6 +26,9 @@ const User = (props) => {
                                 <p className="accountNumber">Numer rachunku: <span>{numberAccount}</span></p>
                             </div>
                         </div>
+                        <div className="cleanDataUser">
+                            <button onClick={() => props.delete()}>Wyczyść dane klienta</button>
+                        </div>
                     </div>
         );
 
