@@ -8,21 +8,33 @@
     height: 100vh;
 }
 
-.container {
-    width: 60%;
-    margin: auto;
+.mainContainer {
+    width: 100%;
+    height: 54px;
+    border: 2px solid orange;
+}
+
+.searchContainer {
+    height: 50px;
+    width: 66%;
+    margin: 0 auto;
     border: 2px solid black;
 }
 
-.search {
-    background-color: red;
+input.search {
+    display: block;
+    width: 240px;
+    height: 40px;
+    float: right;
+    vert-align: middle;
+    background-color: white;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-size: 20px;
 }
 
-.usersList {
-    background-color: orange;
-}
-
-.user {
-    background-color: yellow;
+.app .searchContainer .usersList {
+    margin-top: 50px;
 }
 

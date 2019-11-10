@@ -69,11 +69,8 @@ class App extends React.Component {
     render() {
         return (
             <div className="app">
-                <div className="container">
-                    <h1>SmartCrm2.0 działa !</h1>
                     <Search change={this.filterUsers}/>
-                    <UsersList users={this.state.filteredUsers} current={this.currentUser}/>
-                </div>
+                    <UsersList users={this.state.filteredUsers}/>
             </div>
         )
     }
