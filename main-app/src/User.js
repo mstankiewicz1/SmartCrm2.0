@@ -4,7 +4,7 @@ import React from 'react';
 const User = (props) => {
 
 
-    const {name, surname, pesel, mobilePhone, landlinePhone, email} = props.user;
+    const {name, surname, pesel, mobilePhone, landlinePhone, email, numberAccount} = props.user;
 
         return (
                     <div>
@@ -19,6 +19,11 @@ const User = (props) => {
                                 <p className="mobilePhone">Telefon komórkowy: <span>{mobilePhone}</span></p>
                                 <p className="landlinePhone">Telefon stacjonarny: <span>{landlinePhone}</span></p>
                                 <p className="email">Email: <span>{email}</span></p>
+                            </div>
+                        </div>
+                        <div className="dataAccountNumber">
+                            <div>
+                                <p className="accountNumber">Numer rachunku: <span>{numberAccount}</span></p>
                             </div>
                         </div>
                     </div>

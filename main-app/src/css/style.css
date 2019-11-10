@@ -97,7 +97,7 @@ input.search {
 
 .dataPersonFromProps {
     width: 33.3%;
-    height: 100px;
+    height: 90px;
     background-color: cyan;
     border: 2px solid orange;
     display: inline;
@@ -110,7 +110,7 @@ input.search {
 
 .dataContactFromProps {
     width: 33.3%;
-    height: 100px;
+    height: 90px;
     background-color: cyan;
     border: 2px solid orange;
     display: inline;
@@ -120,6 +120,21 @@ input.search {
 .dataContactFromProps .mobilePhone, .landlinePhone, .email {
     text-align: center;
     line-height: 0.2cm;
+}
+
+.dataAccountNumber {
+    width: 33.3%;
+    height: 90px;
+    background-color: cyan;
+    border: 2px solid orange;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+p.accountNumber {
+    margin: 0;
 }
 
 
