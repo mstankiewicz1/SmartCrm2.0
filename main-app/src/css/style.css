@@ -167,7 +167,6 @@ p.accountNumber {
 }
 
 .financialData p {
-    margin-left: 50px;
     font-weight: bold;
 }
 
@@ -187,7 +186,7 @@ ul {
 
 .incomeSection ul li {
     text-align: center;
-    
+
 }
 
 

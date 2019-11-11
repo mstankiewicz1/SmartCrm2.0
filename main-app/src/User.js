@@ -4,7 +4,8 @@ import React from 'react';
 const User = (props) => {
 
 
-    const {name, surname, pesel, mobilePhone, landlinePhone, email, numberAccount, accountIncome} = props.user;
+    const {name, surname, pesel, mobilePhone, landlinePhone, email, numberAccount, accountIncome, tradingOnCashMarket,
+            tradingOnFuturesMarket} = props.user;
 
         return (
                     <div>
@@ -30,13 +31,22 @@ const User = (props) => {
                             <button onClick={() => props.delete()}>Wyczyść dane klienta</button>
                         </div>
                         <div className="incomeSection">
-                            <ul>
-                                <li>Dochodowość:
-                                    <span>{accountIncome}</span>
-                                </li>
-
-
-                            </ul>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Dochodowość:</td>
+                                        <td>{accountIncome}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Obrót na rynku kasowym:</td>
+                                        <td>{tradingOnCashMarket}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Obrót na rynku terminowym</td>
+                                        <td>{tradingOnFuturesMarket}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
         );

@@ -21,6 +21,8 @@ const UsersList = (props) => {
                         numberAccount={props.numberAccount}
                         delete={props.delete}
                         accountIncome={props.accountIncome}
+                        tradingOnCashMarket={props.tradingOnCashMarket}
+                        tradingOnFuturesMarket={props.tradingOnFuturesMarket}
                     />
                 )}
             </div>

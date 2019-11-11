@@ -15,6 +15,8 @@ const allUsers = [{
                     email: 'zxcccv@gmail.com',
                     numberAccount: 12345678,
                     accountIncome: 125000,
+                    tradingOnCashMarket: 50000,
+                    tradingOnFuturesMarket: 200000,
                     },
                     {
                     id: 1,
@@ -26,6 +28,8 @@ const allUsers = [{
                     email: 'bdfbbd@gmail.com',
                     numberAccount: 23456789,
                     accountIncome: 150000,
+                    tradingOnCashMarket: 75000,
+                    tradingOnFuturesMarket: 225000,
                     },
                     {
                     id: 2,
@@ -37,6 +41,8 @@ const allUsers = [{
                     email: 'gergdfg@gmail.com',
                     numberAccount: 34567890,
                     accountIncome: 175000,
+                    tradingOnCashMarket: 100000,
+                    tradingOnFuturesMarket: 250000,
                     },
                     {
                     id: 3,
@@ -48,6 +54,8 @@ const allUsers = [{
                     email: 'nnin@gmail.com',
                     numberAccount: 45678901,
                     accountIncome: 200000,
+                    tradingOnCashMarket: 125000,
+                    tradingOnFuturesMarket: 275000,
                     },
                     {
                     id: 4,
@@ -59,6 +67,8 @@ const allUsers = [{
                     email: 'hdgfgfdgfdcv@gmail.com',
                     numberAccount: 56789012,
                     accountIncome: 225000,
+                    tradingOnCashMarket: 150000,
+                    tradingOnFuturesMarket: 300000,
                     },
                 ];
 
