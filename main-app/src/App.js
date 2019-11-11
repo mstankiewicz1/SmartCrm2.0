@@ -119,6 +119,9 @@ class App extends React.Component {
                     <div className="financialData">
                         <p>Dane Finansowe</p>
                     </div>
+                    <div className="portfolioSection">
+                        <p>Tu bedzie skład portfela</p>
+                    </div>
             </div>
         )
     }

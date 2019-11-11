@@ -189,6 +189,21 @@ p.accountNumber {
     border: 2px solid black;
 }
 
+.portfolioSection {
+    width: 300px;
+    height: 50px;
+    float: right;
+    background-color: darkblue;
+    border: 2px solid red;
+    position: fixed;
+    top: 370px;
+    right: 0;
+}
+
+.portfolioSection p {
+    font-weight: bold;
+}
+
 
 
 
