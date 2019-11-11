@@ -178,16 +178,18 @@ p.accountNumber {
     position: absolute;
     top: 220px;
     right: 0;
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-ul {
-    list-style-type: none;
+#tableFinancialData {
+    margin: auto;
+    border: 2px solid black;
 }
 
-.incomeSection ul li {
-    text-align: center;
 
-}
 
 
 

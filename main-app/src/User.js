@@ -31,7 +31,7 @@ const User = (props) => {
                             <button onClick={() => props.delete()}>Wyczyść dane klienta</button>
                         </div>
                         <div className="incomeSection">
-                            <table>
+                            <table id="tableFinancialData">
                                 <tbody>
                                     <tr>
                                         <td>Dochodowość:</td>
@@ -42,7 +42,7 @@ const User = (props) => {
                                         <td>{tradingOnCashMarket}</td>
                                     </tr>
                                     <tr>
-                                        <td>Obrót na rynku terminowym</td>
+                                        <td>Obrót na rynku terminowym:</td>
                                         <td>{tradingOnFuturesMarket}</td>
                                     </tr>
                                 </tbody>
