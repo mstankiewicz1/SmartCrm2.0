@@ -23,6 +23,7 @@ const UsersList = (props) => {
                         accountIncome={props.accountIncome}
                         tradingOnCashMarket={props.tradingOnCashMarket}
                         tradingOnFuturesMarket={props.tradingOnFuturesMarket}
+                        instrumentsPortfolio={props.instrumentsPortfolio}
                     />
                 )}
             </div>

@@ -204,6 +204,25 @@ p.accountNumber {
     font-weight: bold;
 }
 
+.instrumentsSection {
+    background-color: red;
+    width: 300px;
+    height: 237px;
+    color: black;
+    position: absolute;
+    top: 420px;
+    right: 0;
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tableInstrumentsData {
+    margin: auto;
+    border: 2px solid black;
+}
+
 
 
 

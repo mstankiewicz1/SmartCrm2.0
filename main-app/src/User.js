@@ -5,7 +5,8 @@ const User = (props) => {
 
 
     const {name, surname, pesel, mobilePhone, landlinePhone, email, numberAccount, accountIncome, tradingOnCashMarket,
-            tradingOnFuturesMarket} = props.user;
+            tradingOnFuturesMarket, instrumentsPortfolio} = props.user;
+
 
         return (
                     <div>
@@ -45,6 +46,24 @@ const User = (props) => {
                                         <td>Obrót na rynku terminowym:</td>
                                         <td>{tradingOnFuturesMarket}</td>
                                     </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div className="instrumentsSection">
+                            <table id="tableInstrumentsData">
+                                <tbody>
+                                <tr>
+                                    <td>Akcje:</td>
+                                    <td>{instrumentsPortfolio.equityInstruments}</td>
+                                </tr>
+                                <tr>
+                                    <td>Obligacje:</td>
+                                    <td>{instrumentsPortfolio.debtInstruments}</td>
+                                </tr>
+                                <tr>
+                                    <td>Wolna Gotowka:</td>
+                                    <td>{instrumentsPortfolio.freeCash}</td>
+                                </tr>
                                 </tbody>
                             </table>
                         </div>

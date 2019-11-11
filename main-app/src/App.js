@@ -17,6 +17,11 @@ const allUsers = [{
                     accountIncome: 125000,
                     tradingOnCashMarket: 50000,
                     tradingOnFuturesMarket: 200000,
+                    instrumentsPortfolio: {
+                                            equityInstruments: 400000,
+                                            debtInstruments: 500000,
+                                            freeCash: 600000,
+                                            },
                     },
                     {
                     id: 1,
@@ -120,7 +125,7 @@ class App extends React.Component {
                         <p>Dane Finansowe</p>
                     </div>
                     <div className="portfolioSection">
-                        <p>Tu bedzie skład portfela</p>
+                        <p>Skład Portfela</p>
                     </div>
             </div>
         )
