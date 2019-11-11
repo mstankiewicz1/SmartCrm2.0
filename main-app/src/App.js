@@ -16,7 +16,7 @@ const allUsers = [{
                     numberAccount: 12345678,
                     accountIncome: 125000,
                     divisionMarkets: {
-                                        tradingOnCashMarket: 50000,
+
                                         tradingOnFuturesMarket: 200000,
                                     },
                     instrumentsPortfolio: {
@@ -37,12 +37,10 @@ const allUsers = [{
                     accountIncome: 150000,
                     divisionMarkets: {
                                         tradingOnCashMarket: 75000,
-                                        tradingOnFuturesMarket: 225000,
                                     },
                     instrumentsPortfolio: {
                                             equityInstruments: 500000,
                                             debtInstruments: 600000,
-                                            freeCash: 700000,
                                         },
                     },
                     {

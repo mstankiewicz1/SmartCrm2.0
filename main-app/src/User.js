@@ -40,11 +40,11 @@ const User = (props) => {
                                     </tr>
                                     <tr>
                                         <td>Obrót na rynku kasowym:</td>
-                                        <td>{divisionMarkets.tradingOnCashMarket}</td>
+                                        <td>{divisionMarkets.tradingOnCashMarket ? divisionMarkets.tradingOnCashMarket : null }</td>
                                     </tr>
                                     <tr>
                                         <td>Obrót na rynku terminowym:</td>
-                                        <td>{divisionMarkets.tradingOnFuturesMarket}</td>
+                                        <td>{divisionMarkets.tradingOnFuturesMarket ? divisionMarkets.tradingOnFuturesMarket : null}</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -54,15 +54,15 @@ const User = (props) => {
                                 <tbody>
                                 <tr>
                                     <td>Akcje:</td>
-                                    <td>{instrumentsPortfolio.equityInstruments}</td>
+                                    <td>{instrumentsPortfolio.equityInstruments ? instrumentsPortfolio.equityInstruments : null}</td>
                                 </tr>
                                 <tr>
                                     <td>Obligacje:</td>
-                                    <td>{instrumentsPortfolio.debtInstruments}</td>
+                                    <td>{instrumentsPortfolio.debtInstruments ? instrumentsPortfolio.debtInstruments : null}</td>
                                 </tr>
                                 <tr>
                                     <td>Wolna Gotowka:</td>
-                                    <td>{instrumentsPortfolio.freeCash}</td>
+                                    <td>{instrumentsPortfolio.freeCash ? instrumentsPortfolio.freeCash : null}</td>
                                 </tr>
                                 </tbody>
                             </table>
