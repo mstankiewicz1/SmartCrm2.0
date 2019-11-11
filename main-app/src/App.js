@@ -35,6 +35,11 @@ const allUsers = [{
                     accountIncome: 150000,
                     tradingOnCashMarket: 75000,
                     tradingOnFuturesMarket: 225000,
+                    instrumentsPortfolio: {
+                                            equityInstruments: 500000,
+                                            debtInstruments: 600000,
+                                            freeCash: 700000,
+                                        },
                     },
                     {
                     id: 2,
@@ -48,6 +53,11 @@ const allUsers = [{
                     accountIncome: 175000,
                     tradingOnCashMarket: 100000,
                     tradingOnFuturesMarket: 250000,
+                    instrumentsPortfolio: {
+                                            equityInstruments: 600000,
+                                            debtInstruments: 700000,
+                                            freeCash: 800000,
+                                        },
                     },
                     {
                     id: 3,
@@ -61,6 +71,11 @@ const allUsers = [{
                     accountIncome: 200000,
                     tradingOnCashMarket: 125000,
                     tradingOnFuturesMarket: 275000,
+                    instrumentsPortfolio: {
+                                            equityInstruments: 700000,
+                                            debtInstruments: 800000,
+                                            freeCash: 900000,
+                                        },
                     },
                     {
                     id: 4,
@@ -74,6 +89,11 @@ const allUsers = [{
                     accountIncome: 225000,
                     tradingOnCashMarket: 150000,
                     tradingOnFuturesMarket: 300000,
+                    instrumentsPortfolio: {
+                                            equityInstruments: 800000,
+                                            debtInstruments: 900000,
+                                            freeCash: 1000000,
+                                        },
                     },
                 ];
 
