@@ -27,6 +27,13 @@ class AddUser extends React.Component {
         })
     };
 
+    addNewUser = (e) => {
+
+        e.preventDefault();
+
+
+    };
+
 
 
 
@@ -34,7 +41,7 @@ class AddUser extends React.Component {
     render(){
         return (
             <div className="addUserForm">
-                <form>
+                <form onSubmit={this.addNewUser}>
                     <input className="name" type="text" placeholder="Wpisz imię" value={this.state.user.name}
                            onChange={this.handleChange}/>
                     <input className="surname" type="text" placeholder="Wpisz nazwisko" value={this.state.user.surname}
@@ -47,6 +54,7 @@ class AddUser extends React.Component {
                            onChange={this.handleChange}/>
                     <input className="email" type="email" placeholder="Wpisz adres email" value={this.state.user.email}
                            onChange={this.handleChange}/>
+                    <button>Dodaj</button>
                 </form>
             </div>
         )
