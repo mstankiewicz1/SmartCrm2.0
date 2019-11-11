@@ -2,6 +2,7 @@ import React from 'react';
 import './css/style.css';
 import UsersList from './UsersList';
 import Search from './Search';
+import AddUser from './AddUser';
 
 
 
@@ -155,6 +156,7 @@ class App extends React.Component {
                     <div className="portfolioSection">
                         <p>Skład Portfela</p>
                     </div>
+                <AddUser/>
             </div>
         )
     }
