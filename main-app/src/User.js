@@ -36,7 +36,7 @@ const User = (props) => {
                                 <tbody>
                                     <tr>
                                         <td>Dochodowość:</td>
-                                        <td>{accountIncome}</td>
+                                        <td>{accountIncome ? accountIncome : null}</td>
                                     </tr>
                                     <tr>
                                         <td>Obrót na rynku kasowym:</td>
