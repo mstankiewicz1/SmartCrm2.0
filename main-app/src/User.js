@@ -4,8 +4,8 @@ import React from 'react';
 const User = (props) => {
 
 
-    const {name, surname, pesel, mobilePhone, landlinePhone, email, numberAccount, accountIncome, tradingOnCashMarket,
-            tradingOnFuturesMarket, instrumentsPortfolio} = props.user;
+    const {name, surname, pesel, mobilePhone, landlinePhone, email, numberAccount, accountIncome, divisionMarkets,
+        instrumentsPortfolio} = props.user;
 
 
         return (
@@ -40,11 +40,11 @@ const User = (props) => {
                                     </tr>
                                     <tr>
                                         <td>Obrót na rynku kasowym:</td>
-                                        <td>{tradingOnCashMarket}</td>
+                                        <td>{divisionMarkets.tradingOnCashMarket}</td>
                                     </tr>
                                     <tr>
                                         <td>Obrót na rynku terminowym:</td>
-                                        <td>{tradingOnFuturesMarket}</td>
+                                        <td>{divisionMarkets.tradingOnFuturesMarket}</td>
                                     </tr>
                                 </tbody>
                             </table>

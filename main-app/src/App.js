@@ -15,8 +15,10 @@ const allUsers = [{
                     email: 'zxcccv@gmail.com',
                     numberAccount: 12345678,
                     accountIncome: 125000,
-                    tradingOnCashMarket: 50000,
-                    tradingOnFuturesMarket: 200000,
+                    divisionMarkets: {
+                                        tradingOnCashMarket: 50000,
+                                        tradingOnFuturesMarket: 200000,
+                                    },
                     instrumentsPortfolio: {
                                             equityInstruments: 400000,
                                             debtInstruments: 500000,
@@ -33,8 +35,10 @@ const allUsers = [{
                     email: 'bdfbbd@gmail.com',
                     numberAccount: 23456789,
                     accountIncome: 150000,
-                    tradingOnCashMarket: 75000,
-                    tradingOnFuturesMarket: 225000,
+                    divisionMarkets: {
+                                        tradingOnCashMarket: 75000,
+                                        tradingOnFuturesMarket: 225000,
+                                    },
                     instrumentsPortfolio: {
                                             equityInstruments: 500000,
                                             debtInstruments: 600000,
@@ -51,8 +55,10 @@ const allUsers = [{
                     email: 'gergdfg@gmail.com',
                     numberAccount: 34567890,
                     accountIncome: 175000,
-                    tradingOnCashMarket: 100000,
-                    tradingOnFuturesMarket: 250000,
+                    divisionMarkets: {
+                                        tradingOnCashMarket: 100000,
+                                        tradingOnFuturesMarket: 250000,
+                                    },
                     instrumentsPortfolio: {
                                             equityInstruments: 600000,
                                             debtInstruments: 700000,
@@ -69,8 +75,10 @@ const allUsers = [{
                     email: 'nnin@gmail.com',
                     numberAccount: 45678901,
                     accountIncome: 200000,
-                    tradingOnCashMarket: 125000,
-                    tradingOnFuturesMarket: 275000,
+                    divisionMarkets: {
+                                        tradingOnCashMarket: 125000,
+                                        tradingOnFuturesMarket: 275000,
+                                    },
                     instrumentsPortfolio: {
                                             equityInstruments: 700000,
                                             debtInstruments: 800000,
@@ -87,8 +95,10 @@ const allUsers = [{
                     email: 'hdgfgfdgfdcv@gmail.com',
                     numberAccount: 56789012,
                     accountIncome: 225000,
-                    tradingOnCashMarket: 150000,
-                    tradingOnFuturesMarket: 300000,
+                    divisionMarkets: {
+                                        tradingOnCashMarket: 150000,
+                                        tradingOnFuturesMarket: 300000,
+                                    },
                     instrumentsPortfolio: {
                                             equityInstruments: 800000,
                                             debtInstruments: 900000,
