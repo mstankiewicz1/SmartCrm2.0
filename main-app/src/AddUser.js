@@ -4,27 +4,37 @@ import React from 'react';
 class AddUser extends React.Component {
 
     state = {
-        user: {
             name: "",
             surname: "",
             pesel: "",
             mobilePhone: "",
             landlinePhone: "",
-            email: ""
-        }
+            email: "",
     };
 
     handleChange = (e) => {
-
-        let newUser;
-
-        newUser = {
-            ...this.state.user,
-            [e.target.name]: e.target.value,
-        };
         this.setState({
-          user: newUser
+            [e.target.name]: e.target.value
         })
+    };
+
+    addNewUser = () => {
+
+        const {name, surname, pesel, mobilePhone, landlinePhone, email } = this.state;
+
+        const add = this.props.add(name, surname, pesel, mobilePhone, landlinePhone, email);
+        if (add){
+            this.setState({
+                name: "",
+                surname: "",
+                pesel: "",
+                mobilePhone: "",
+                landlinePhone: "",
+                email: "",
+            })
+        } else {
+            return null;
+        }
     };
 
 
@@ -34,17 +44,17 @@ class AddUser extends React.Component {
         return (
             <div className="addUserForm">
                 <form onSubmit={this.addNewUser}>
-                    <input name="name" type="text" placeholder="Wpisz imię" value={this.state.user.name}
+                    <input name="name" type="text" className="nameNewUser" placeholder="Wpisz imię" value={this.state.name}
                         onChange={this.handleChange}/>
-                    <input name="surname" type="text" placeholder="Wpisz nazwisko" value={this.state.user.surname}
+                    <input name="surname" type="text" className="surnameNewUser" placeholder="Wpisz nazwisko" value={this.state.surname}
                         onChange={this.handleChange}/>
-                    <input name="pesel" type="number" placeholder="Wpisz pesel" value={this.state.user.pesel}
+                    <input name="pesel" type="number" className="peselNewUser" placeholder="Wpisz pesel" value={this.state.pesel}
                         onChange={this.handleChange}/>
-                    <input name="mobilePhone" type="number" placeholder="Wpisz numer telefonu komórkowego" value={this.state.user.mobilePhone}
+                    <input name="mobilePhone" type="number" className="mobilePhoneNewUser" placeholder="Wpisz numer telefonu komórkowego" value={this.state.mobilePhone}
                         onChange={this.handleChange}/>
-                    <input name="landlinePhone" type="number" placeholder="Wpisz numer telefonu stacjonarnego" value={this.state.user.landlinePhone}
+                    <input name="landlinePhone" type="number" className="landlinePhoneNewUser" placeholder="Wpisz numer telefonu stacjonarnego" value={this.state.landlinePhone}
                         onChange={this.handleChange}/>
-                    <input name="email" type="email" placeholder="Wpisz adres email" value={this.state.user.email}
+                    <input name="email" type="email" className="emailNewUser" placeholder="Wpisz adres email" value={this.state.email}
                         onChange={this.handleChange}/>
                     <button type="submit">Dodaj</button>
                 </form>

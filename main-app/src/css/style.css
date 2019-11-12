@@ -223,7 +223,7 @@ p.accountNumber {
     border: 2px solid black;
 }
 
-input.name, input.surname, input.pesel, input.mobilePhone, input.landlinePhone, input.email {
+.nameNewUser, .surnameNewUser, .peselNewUser, .mobilePhoneNewUser, .landlinePhoneNewUser, .emailNewUser {
     display: block;
     text-align: center;
     width: 200px;

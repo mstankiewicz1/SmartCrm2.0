@@ -111,7 +111,13 @@ class App extends React.Component {
 
 
     state = {
+      allUsers: [...allUsers],
       filteredUsers: allUsers,
+    };
+
+
+    addNewUser = () => {
+        console.log("dodano nowego uzytkownika");
     };
 
 
@@ -127,6 +133,7 @@ class App extends React.Component {
                 filteredUsers
             });
         }
+        console.log(this.state.filteredUsers);
     };
 
     deleteUser = () => {
@@ -136,8 +143,8 @@ class App extends React.Component {
     };
 
 
-
     render() {
+        console.log(this.state.allUsers);
         return (
             <div className="app">
                     <Search change={this.filterUsers}/>
@@ -157,7 +164,7 @@ class App extends React.Component {
                     <div className="portfolioSection">
                         <p>Skład Portfela</p>
                     </div>
-                <AddUser/>
+                <AddUser add={this.addNewUser}/>
             </div>
         )
     }
