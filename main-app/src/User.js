@@ -12,20 +12,20 @@ const User = (props) => {
                     <div>
                         <div className="dataPersonFromProps">
                             <p className="nameAndSurname">
-                                <span>{name}</span><span> </span><span>{surname}</span>
+                                <span>{name ? name : null}</span><span> </span><span>{surname ? surname : null}</span>
                             </p>
-                            <p className="pesel">{pesel}</p>
+                            <p className="pesel">{pesel ? pesel : null}</p>
                         </div>
                         <div className="dataContactFromProps">
                             <div>
-                                <p className="mobilePhone">Telefon komórkowy: <span>{mobilePhone}</span></p>
-                                <p className="landlinePhone">Telefon stacjonarny: <span>{landlinePhone}</span></p>
-                                <p className="email">Email: <span>{email}</span></p>
+                                <p className="mobilePhone">Telefon komórkowy: <span>{mobilePhone ? mobilePhone : null}</span></p>
+                                <p className="landlinePhone">Telefon stacjonarny: <span>{landlinePhone ? landlinePhone : null}</span></p>
+                                <p className="email">Email: <span>{email ? email : null}</span></p>
                             </div>
                         </div>
                         <div className="dataAccountNumber">
                             <div>
-                                <p className="accountNumber">Numer rachunku: <span>{numberAccount}</span></p>
+                                <p className="accountNumber">Numer rachunku: <span>{numberAccount ? numberAccount : null}</span></p>
                             </div>
                         </div>
                         <div className="cleanDataUser">

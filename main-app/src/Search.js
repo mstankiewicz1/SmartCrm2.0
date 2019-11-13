@@ -10,7 +10,7 @@ const Search = (props) => {
                 <p>CRM</p>
             </div>
             <div className="searchContainer">
-                   <input  className="search" type="search" placeholder="Wpisz numer pesel" onChange={props.change}/>
+                   <input  className="search" type="search" maxLength="11" placeholder="Wpisz numer pesel" onChange={props.change}/>
             </div>
             <div className="logSection">
                 <p>Logowanie</p>

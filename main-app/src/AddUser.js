@@ -1,4 +1,4 @@
-import React from 'react';
+{/*import React from 'react';
 
 
 class AddUser extends React.Component {
@@ -38,12 +38,9 @@ class AddUser extends React.Component {
     };
 
 
-
-
     render(){
         return (
             <div className="addUserForm">
-                <form onSubmit={this.addNewUser}>
                     <input name="name" type="text" className="nameNewUser" placeholder="Wpisz imię" value={this.state.name}
                         onChange={this.handleChange}/>
                     <input name="surname" type="text" className="surnameNewUser" placeholder="Wpisz nazwisko" value={this.state.surname}
@@ -56,11 +53,10 @@ class AddUser extends React.Component {
                         onChange={this.handleChange}/>
                     <input name="email" type="email" className="emailNewUser" placeholder="Wpisz adres email" value={this.state.email}
                         onChange={this.handleChange}/>
-                    <button type="submit">Dodaj</button>
-                </form>
+                    <button onClick={this.addNewUser} type="submit">Dodaj</button>
             </div>
         )
     }
 }
 
-export default AddUser;
+export default AddUser;*/}
