@@ -160,15 +160,6 @@ class App extends React.Component {
         return (
             <div className="app">
                     <Search change={this.filterUsers}/>
-                    <div className="dataPerson">
-                        <p className="headerOwner">Właściciel</p>
-                    </div>
-                    <div className="dataContact">
-                        <p className="headerContactData">Dane kontaktowe</p>
-                    </div>
-                    <div className="AccountingNumbers">
-                        <p className="headerAccountingNumbers">Numery rachunków</p>
-                    </div>
                         <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
                     <div className="financialData">
                         <p>Dane Finansowe</p>

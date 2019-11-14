@@ -68,20 +68,33 @@ input.search {
 
 .dataPerson {
     width: 33.3%;
+    height: 90px;
     border: 2px solid pink;
     text-align: center;
     display: inline;
     float: left;
-    background-color: chocolate;
+    background-color: cyan;
 }
 
 .dataContact {
     width: 33.3%;
+    height: 90px;
     border: 2px solid pink;
     text-align: center;
     display: inline;
     float: left;
-    background-color: chocolate;
+    background-color: cyan;
+}
+
+.dataAccountNumber {
+    width: 33.3%;
+    height: 90px;
+    background-color: cyan;
+    border: 2px solid orange;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .headerOwner, .headerContactData, .headerAccountingNumbers {
@@ -122,17 +135,6 @@ input.search {
 .dataContactFromProps .mobilePhone, .landlinePhone, .email {
     text-align: center;
     line-height: 0.2cm;
-}
-
-.dataAccountNumber {
-    width: 33.3%;
-    height: 90px;
-    background-color: cyan;
-    border: 2px solid orange;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center
 }
 
 p.accountNumber {

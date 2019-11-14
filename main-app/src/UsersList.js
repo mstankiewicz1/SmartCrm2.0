@@ -28,7 +28,59 @@ const UsersList = (props) => {
             </div>
         )
     } else {
-        return null
+        return (
+            <div>
+                <div className="dataPerson">
+                        <p className="headerOwner">Właściciel</p>
+                        <p className="nameAndSurname">
+                        </p>
+                        <p className="pesel">
+                        </p>
+                </div>
+                <div className="dataContact">
+                        <p className="headerContactData">Dane kontaktowe</p>
+                        <p className="mobilePhone">Telefon komórkowy:</p>
+                        <p className="landlinePhone">Telefon stacjonarny:</p>
+                        <p className="email">Email:</p>
+                </div>
+                <div className="dataAccountNumber">
+                        <p className="headerAccountingNumbers">Numery rachunków</p>
+                </div>
+                <div className="cleanDataUser">
+                </div>
+                <div className="incomeSection">
+                    <table id="tableFinancialData">
+                        <tbody>
+                        <tr>
+                            <td>Dochodowość:</td>
+                        </tr>
+                        <tr>
+                            <td>Obrót na rynku kasowym:</td>
+                        </tr>
+                        <tr>
+                            <td>Obrót na rynku terminowym:</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div className="instrumentsSection">
+                    <table id="tableInstrumentsData">
+                        <tbody>
+                        <tr>
+                            <td>Akcje:</td>
+                        </tr>
+                        <tr>
+                            <td>Obligacje:</td>
+                        </tr>
+                        <tr>
+                            <td>Wolna Gotowka:</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        )
     }
 };
 
