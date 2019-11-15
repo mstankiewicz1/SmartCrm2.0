@@ -3,6 +3,7 @@ import './css/style.css';
 import UsersList from './UsersList';
 import Search from './Search';
 import AddUser from './AddUser';
+import AddNotesOnUser from "./addNotesOnUser";
 
 
 const allUsers = [
@@ -161,6 +162,7 @@ class App extends React.Component {
             <div className="app">
                     <Search change={this.filterUsers}/>
                     <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
+                    <AddNotesOnUser/>
                 {/*<AddUser add={this.addNewUser}/>*/}
             </div>
         )
