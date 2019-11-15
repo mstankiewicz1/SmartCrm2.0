@@ -154,6 +154,7 @@ input.search {
     background-color: yellow;
     float: right;
     height: 76vh;
+    border: 2px solid pink;
 }
 
 .financialData {
@@ -209,6 +210,38 @@ input.search {
 
 #tableInstrumentsDataFromProps {
     width: 80%;
+}
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\Lewa strona ////////////////////////*/
+
+.notesAndPreferencesUser {
+    width: 20%;
+    background-color: yellow;
+    float: left;
+    height: 76vh;
+    border: 2px solid pink;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.PrivateNotesArea {
+    margin-top: 10px;
+}
+
+.headerPrivateNotes {
+    text-align: center;
+    border: 2px solid red;
+}
+
+.textAreaNotes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addPrivateNotesButton {
+    width: 100%;
 }
 
 
