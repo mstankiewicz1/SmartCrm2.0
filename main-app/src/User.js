@@ -51,26 +51,26 @@ const User = (props) => {
                                         </tbody>
                                     </table>
                             </div>
-                        </div>
-                        <div className="instrumentsSectionFromProps">
-                            <div className="portfolioSection">
-                                <p>Skład Portfela</p>
-                                    <table id="tableInstrumentsDataFromProps">
-                                        <tbody>
-                                            <tr>
-                                                <td>Akcje:</td>
-                                                <td>{instrumentsPortfolio.equityInstruments ? instrumentsPortfolio.equityInstruments : null}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Obligacje:</td>
-                                                <td>{instrumentsPortfolio.debtInstruments ? instrumentsPortfolio.debtInstruments : null}</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Wolna Gotowka:</td>
-                                                <td>{instrumentsPortfolio.freeCash ? instrumentsPortfolio.freeCash : null}</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            <div className="instrumentsSectionFromProps">
+                                <div className="portfolioSectionFromProps">
+                                    <p>Skład Portfela</p>
+                                        <table id="tableInstrumentsDataFromProps">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Akcje:</td>
+                                                    <td>{instrumentsPortfolio.equityInstruments ? instrumentsPortfolio.equityInstruments : null}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Obligacje:</td>
+                                                    <td>{instrumentsPortfolio.debtInstruments ? instrumentsPortfolio.debtInstruments : null}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wolna Gotowka:</td>
+                                                    <td>{instrumentsPortfolio.freeCash ? instrumentsPortfolio.freeCash : null}</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -29,55 +29,55 @@ const UsersList = (props) => {
         )
     } else {
         return (
-            <div>
-                <div className="dataUser">
-                    <div className="dataPerson">
-                            <p className="headerDataPerson">Właściciel</p>
+                    <div>
+                        <div className="dataUser">
+                            <div className="dataPerson">
+                                    <p className="headerDataPerson">Właściciel</p>
+                            </div>
+                            <div className="dataContact">
+                                    <p className="headerDataContact">Dane kontaktowe</p>
+                            </div>
+                            <div className="dataAccountNumber">
+                                    <p className="headerDataAccountNumber">Numery rachunków</p>
+                            </div>
+                        </div>
+                        <div className="incomeSection">
+                            <div className="financialData">
+                                <p>Dane Finansowe</p>
+                                    <table id="tableFinancialData">
+                                        <tbody>
+                                            <tr>
+                                                <td>Dochodowość:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Obrót na rynku kasowym:</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Obrót na rynku terminowym:</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div className="instrumentsSection">
+                                <div className="portfolioSection">
+                                    <p>Skład Portfela</p>
+                                        <table id="tableInstrumentsData">
+                                            <tbody>
+                                                <tr>
+                                                    <td>Akcje:</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Obligacje:</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Wolna Gotowka:</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="dataContact">
-                            <p className="headerDataContact">Dane kontaktowe</p>
-                    </div>
-                    <div className="dataAccountNumber">
-                            <p className="headerDataAccountNumber">Numery rachunków</p>
-                    </div>
-                </div>
-                <div className="incomeSection">
-                    <div className="financialData">
-                        <p>Dane Finansowe</p>
-                            <table id="tableFinancialData">
-                                <tbody>
-                                    <tr>
-                                        <td>Dochodowość:</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Obrót na rynku kasowym:</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Obrót na rynku terminowym:</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                    </div>
-                </div>
-                <div className="instrumentsSection">
-                    <div className="portfolioSection">
-                        <p>Skład Portfela</p>
-                            <table id="tableInstrumentsData">
-                                <tbody>
-                                    <tr>
-                                        <td>Akcje:</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Obligacje:</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Wolna Gotowka:</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                    </div>
-                </div>
-            </div>
         )
     }
 };

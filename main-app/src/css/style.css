@@ -137,7 +137,6 @@ input.search {
     display: block;
     width: 180px;
     height: 40px;
-    float: right;
     vert-align: middle;
     background-color: white;
     text-align: center;
@@ -150,6 +149,51 @@ input.search {
     left: 600px
 }
 
+.incomeSection {
+    width: 20%;
+    background-color: yellow;
+    float: right;
+    height: 76vh;
+}
+
+.financialData {
+    width: 100%;
+    height: 50%;
+    background-color: coral;
+}
+
+.instrumentsSection {
+    width: 100%;
+    background-color: deeppink;
+}
+
+#tableFinancialData, #tableInstrumentsData {
+    border: 2px solid black;
+    margin: auto;
+}
+
+.incomeSectionFromProps {
+    width: 20%;
+    background-color: yellow;
+    float: right;
+    height: 76vh;
+}
+
+.financialDataFromProps {
+    width: 100%;
+    height: 50%;
+    background-color: coral;
+}
+
+.instrumentsSectionFromProps {
+    width: 100%;
+    background-color: deeppink;
+}
+
+#tableFinancialDataFromProps, #tableInstrumentsDataFromProps {
+    border: 2px solid black;
+    margin: auto;
+}
 
 
 
