@@ -160,13 +160,7 @@ class App extends React.Component {
         return (
             <div className="app">
                     <Search change={this.filterUsers}/>
-                        <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
-                    <div className="financialData">
-                        <p>Dane Finansowe</p>
-                    </div>
-                    <div className="portfolioSection">
-                        <p>Skład Portfela</p>
-                    </div>
+                    <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
                 {/*<AddUser add={this.addNewUser}/>*/}
             </div>
         )

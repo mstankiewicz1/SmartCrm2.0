@@ -66,178 +66,89 @@ input.search {
     margin: 0;
 }
 
+.dataUser {
+    width: 100%;
+    height: 100px;
+    border: 2px solid red;
+}
+
 .dataPerson {
     width: 33.3%;
-    height: 90px;
+    height: 100px;
     border: 2px solid pink;
     text-align: center;
-    display: inline;
     float: left;
     background-color: cyan;
 }
 
 .dataContact {
     width: 33.3%;
-    height: 90px;
+    height: 100px;
     border: 2px solid pink;
     text-align: center;
-    display: inline;
     float: left;
     background-color: cyan;
 }
 
 .dataAccountNumber {
     width: 33.3%;
-    height: 90px;
-    background-color: cyan;
-    border: 2px solid orange;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-.headerOwner, .headerContactData, .headerAccountingNumbers {
-    display: inline;
-}
-
-.AccountingNumbers {
-    width: 33.3%;
+    height: 100px;
     border: 2px solid pink;
     text-align: center;
-    display: inline;
     float: left;
-    background-color: chocolate;
+    background-color: cyan;
+}
+
+.dataUserFromProps {
+    width: 100%;
+    height: 100px;
+    border: 2px solid red;
 }
 
 .dataPersonFromProps {
     width: 33.3%;
-    height: 90px;
-    background-color: cyan;
-    border: 2px solid orange;
-    display: inline;
-    float: left;
-}
-
-.dataPersonFromProps .nameAndSurname, .pesel, .mobilePhone, .landlinePhone {
+    height: 100px;
+    border: 2px solid pink;
     text-align: center;
+    float: left;
+    background-color: cyan;
 }
 
 .dataContactFromProps {
     width: 33.3%;
-    height: 90px;
-    background-color: cyan;
-    border: 2px solid orange;
-    display: inline;
+    height: 100px;
+    border: 2px solid pink;
+    text-align: center;
     float: left;
+    background-color: cyan;
+    line-height: 0.25cm;
 }
 
-.dataContactFromProps .mobilePhone, .landlinePhone, .email {
+.dataAccountNumberFromProps {
+    width: 33.3%;
+    height: 100px;
+    border: 2px solid pink;
     text-align: center;
-    line-height: 0.2cm;
+    float: left;
+    background-color: cyan;
 }
 
-p.accountNumber {
-    margin: 0;
-}
-
-.cleanDataUser {
-    width: 170px;
-    height: 40px;
-    position: absolute;
-    top: 8px;
-    margin-left: 43vw;
-}
-
-.cleanDataUser button {
-    width: 170px;
-    height: 40px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.financialData {
-    width: 300px;
-    height: 50px;
-    float: right;
-    background-color: coral;
-    border: 2px solid red;
-    position: fixed;
-    top: 170px;
-    right: 0;
-}
-
-.financialData p {
-    font-weight: bold;
-}
-
-.incomeSection {
-    background-color: red;
-    width: 300px;
-    height: 150px;
-    color: black;
-    position: absolute;
-    top: 220px;
-    right: 0;
-    border: 2px solid orange;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-
-#tableFinancialData {
-    margin: auto;
-    border: 2px solid black;
-}
-
-.portfolioSection {
-    width: 300px;
-    height: 50px;
-    float: right;
-    background-color: darkblue;
-    border: 2px solid red;
-    position: fixed;
-    top: 370px;
-    right: 0;
-}
-
-.portfolioSection p {
-    font-weight: bold;
-}
-
-.instrumentsSection {
-    background-color: red;
-    width: 300px;
-    height: 236px;
-    color: black;
-    position: absolute;
-    top: 420px;
-    right: 0;
-    border: 2px solid orange;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#tableInstrumentsData {
-    margin: auto;
-    border: 2px solid black;
-}
-
-.nameNewUser, .surnameNewUser, .peselNewUser, .mobilePhoneNewUser, .landlinePhoneNewUser, .emailNewUser {
+.cleanDataUserFromProps button {
     display: block;
+    width: 180px;
+    height: 40px;
+    float: right;
+    vert-align: middle;
+    background-color: white;
     text-align: center;
-    width: 200px;
-    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 600px
 }
-
-
-
-
-
-
-
 
 
 
