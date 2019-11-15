@@ -172,6 +172,14 @@ input.search {
     margin: auto;
 }
 
+#tableFinancialData {
+    width: 100%;
+}
+
+#tableInstrumentsData {
+    width: 80%;
+}
+
 .incomeSectionFromProps {
     width: 20%;
     background-color: yellow;
@@ -193,6 +201,14 @@ input.search {
 #tableFinancialDataFromProps, #tableInstrumentsDataFromProps {
     border: 2px solid black;
     margin: auto;
+}
+
+#tableFinancialDataFromProps {
+    width: 100%;
+}
+
+#tableInstrumentsDataFromProps {
+    width: 80%;
 }
 
 
