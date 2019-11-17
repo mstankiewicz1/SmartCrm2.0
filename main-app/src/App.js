@@ -3,7 +3,8 @@ import './css/style.css';
 import UsersList from './UsersList';
 import Search from './Search';
 import AddUser from './AddUser';
-import Notes from "./Notes";
+import Notes from './Notes';
+import NotesList from './NotesList';
 
 
 const allUsers = [
@@ -133,6 +134,7 @@ class App extends React.Component {
     deleteUser = () => {
       this.setState({
           filteredUsers: [],
+          privateNotes: []
       })
     };
 
@@ -185,6 +187,7 @@ class App extends React.Component {
                     <Search change={this.filterUsers}/>
                     <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
                     <Notes add={this.addNotes}/>
+                    <NotesList list={this.state.privateNotes}/>
                 {/*<AddUser add={this.addNewUser}/>*/}
             </div>
         )
