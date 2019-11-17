@@ -4,12 +4,12 @@ import React from 'react';
 const SingleNote = (props) => {
 
 
-    const {text} = props.note;
+    const {text, id} = props.note;
 
         return (
             <div>
                 <p>
-                    <p>{text}</p>
+                    <p><em>{id + 1}. </em>{text}</p>
                 </p>
             </div>
 
