@@ -218,7 +218,7 @@ input.search {
     width: 20%;
     background-color: yellow;
     float: left;
-    height: 76vh;
+    height: 15vh;
     border: 2px solid pink;
     display: flex;
     align-items: flex-start;
@@ -244,5 +244,22 @@ input.search {
     width: 100%;
 }
 
+/*///////////////////////////////*/
+
+.HistoryNotes {
+    margin-top: 101px;
+    margin-left: 0;
+    width: 20%;
+    background-color: yellow;
+    height: 28vh;
+    border: 2px solid pink;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.singleParagraphNote {
+    line-height: 0.2cm;
+}
 
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import User from './User';
+import Notes from "./Notes";
+import NotesList from "./NotesList";
 
 
 const UsersList = (props) => {
@@ -23,7 +25,7 @@ const UsersList = (props) => {
                         accountIncome={props.accountIncome}
                         tradingOnCashMarket={props.divisionMarkets}
                         instrumentsPortfolio={props.instrumentsPortfolio}
-                    />
+                    />,
                 )}
             </div>
         )

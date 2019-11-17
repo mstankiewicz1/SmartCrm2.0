@@ -34,7 +34,7 @@ class Notes extends React.Component {
         return (
             <div className="notesAndPreferencesUser">
                 <div className="PrivateNotesArea">
-                    <textarea className="textAreaNotes" placeholder="Wpisz prywatną notatkę" rows="10" cols="25" value={this.state.text} onChange={this.handleText}/>
+                    <textarea className="textAreaNotes" placeholder="Wpisz prywatną notatkę" rows="3" cols="25" value={this.state.text} onChange={this.handleText}/>
                     <button className="addPrivateNotesButton" onClick={this.handleClick}>Dodaj notatkę</button>
                 </div>
             </div>

@@ -12,9 +12,11 @@ const NotesList = (props) => {
     );
 
     return (
-        <div className="noteList">
-                <h2>Historia notatek</h2>
-                <p>{notes}</p>
+        <div className="HistoryNotes">
+            <div className="historyNotesDetail">
+                <h4>Historia notatek</h4>
+                <p>{notes.slice(0,5)}</p>
+            </div>
         </div>
     )
 };

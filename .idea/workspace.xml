@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5736c757-854b-478d-9d2f-24fc65925c4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/main-app/src/Notes.js" afterPath="$PROJECT_DIR$/main-app/src/Notes.js" />
+      <change beforePath="$PROJECT_DIR$/main-app/src/NotesList.js" afterPath="$PROJECT_DIR$/main-app/src/NotesList.js" />
       <change beforePath="$PROJECT_DIR$/main-app/src/SingleNote.js" afterPath="$PROJECT_DIR$/main-app/src/SingleNote.js" />
+      <change beforePath="$PROJECT_DIR$/main-app/src/UsersList.js" afterPath="$PROJECT_DIR$/main-app/src/UsersList.js" />
+      <change beforePath="$PROJECT_DIR$/main-app/src/css/style.css" afterPath="$PROJECT_DIR$/main-app/src/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +34,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3280">
-              <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="1498">
+              <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -49,24 +53,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsersList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-app/src/UsersList.js">
+      <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-app/src/User.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1560">
-              <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="458">
+              <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-app/src/User.js">
+      <file leaf-file-name="UsersList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-app/src/UsersList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="118">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,18 +78,18 @@
       <file leaf-file-name="Notes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/Notes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+            <state relative-caret-position="124">
+              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotesList.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NotesList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-app/src/NotesList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="278">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -93,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleNote.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingleNote.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/SingleNote.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -106,8 +110,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="228" column="21" lean-forward="true" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
+            <state relative-caret-position="438">
+              <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -134,14 +138,14 @@
         <option value="$PROJECT_DIR$/main-app/src/AddUser.js" />
         <option value="$PROJECT_DIR$/main-app/src/Search.js" />
         <option value="$PROJECT_DIR$/main-app/src/UserFinancialData.js" />
-        <option value="$PROJECT_DIR$/main-app/src/css/style.css" />
-        <option value="$PROJECT_DIR$/main-app/src/User.js" />
         <option value="$PROJECT_DIR$/main-app/src/addNotesOnUser.js" />
-        <option value="$PROJECT_DIR$/main-app/src/NotesList.js" />
         <option value="$PROJECT_DIR$/main-app/src/App.js" />
+        <option value="$PROJECT_DIR$/main-app/src/SingleNote.js" />
+        <option value="$PROJECT_DIR$/main-app/src/NotesList.js" />
         <option value="$PROJECT_DIR$/main-app/src/UsersList.js" />
         <option value="$PROJECT_DIR$/main-app/src/Notes.js" />
-        <option value="$PROJECT_DIR$/main-app/src/SingleNote.js" />
+        <option value="$PROJECT_DIR$/main-app/src/css/style.css" />
+        <option value="$PROJECT_DIR$/main-app/src/User.js" />
       </list>
     </option>
   </component>
@@ -305,12 +309,12 @@
       <workItem from="1573839481992" duration="7932000" />
       <workItem from="1573860968669" duration="1291000" />
       <workItem from="1573863266476" duration="1035000" />
-      <workItem from="1573998189991" duration="7008000" />
+      <workItem from="1573998189991" duration="12121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132356000" />
+    <option name="totallyTimeSpent" value="137469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -714,6 +718,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/SingleNote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1498">
+          <caret line="183" column="0" lean-forward="true" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="247" column="0" lean-forward="true" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/Search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -722,65 +752,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/css/style.css">
+    <entry file="file://$PROJECT_DIR$/main-app/src/User.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="228" column="21" lean-forward="true" selection-start-line="228" selection-start-column="21" selection-end-line="228" selection-end-column="21" />
+        <state relative-caret-position="458">
+          <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/UsersList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="78" column="30" lean-forward="false" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        <state relative-caret-position="118">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/Notes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        <state relative-caret-position="124">
+          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3280">
-          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/NotesList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="278">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/SingleNote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

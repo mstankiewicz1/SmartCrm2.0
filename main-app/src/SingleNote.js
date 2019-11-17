@@ -8,9 +8,7 @@ const SingleNote = (props) => {
 
         return (
             <div>
-                <p>
-                    <p><em>{id + 1}. </em>{text}</p>
-                </p>
+                    <p className="singleParagraphNote"><em>{id + 1}. </em>{text}</p>
             </div>
 
         )
