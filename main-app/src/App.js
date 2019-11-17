@@ -2,9 +2,10 @@ import React from 'react';
 import './css/style.css';
 import UsersList from './UsersList';
 import Search from './Search';
-import AddUser from './AddUser';
 import Notes from './Notes';
 import NotesList from './NotesList';
+import AddBankNumber from './AddBankNumber';
+import BankNumbersList from './BankNumbersList';
 
 
 const allUsers = [
@@ -114,7 +115,8 @@ class App extends React.Component {
 
     state = {
               filteredUsers: allUsers,
-              privateNotes: []
+              privateNotes: [],
+              bankAccountNumbers: []
          };
 
 
@@ -134,7 +136,8 @@ class App extends React.Component {
     deleteUser = () => {
       this.setState({
           filteredUsers: [],
-          privateNotes: []
+          privateNotes: [],
+          bankAccountNumbers: [],
       })
     };
 
@@ -153,42 +156,31 @@ class App extends React.Component {
         return true
     };
 
-
-
-
-    /*addNewUser = (name, surname, pesel, mobilePhone, landlinePhone, email) => {
-
-        const user = {
+    addBankNumber = (number) => {
+        const num = {
             id: this.counter,
-            name: name,
-            surname: surname,
-            pesel: pesel,
-            mobilePhone: mobilePhone,
-            landlinePhone: landlinePhone,
-            email: email,
+            number,
         };
         this.counter++;
 
-        this.setState(({
-            allUsers: [...this.state.allUsers, user]
-        }));
+        this.setState(prevState =>({
+            bankAccountNumbers: [...prevState.bankAccountNumbers, num]
+            })
+        );
 
-        return true;
-
-    };*/
+        return true
+    };
 
 
     render() {
-
-        console.log(this.state.privateNotes);
-
         return (
             <div className="app">
                     <Search change={this.filterUsers}/>
                     <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
                     <Notes add={this.addNotes}/>
                     <NotesList list={this.state.privateNotes}/>
-                {/*<AddUser add={this.addNewUser}/>*/}
+                    <AddBankNumber addNumber={this.addBankNumber}/>
+                    <BankNumbersList listNumbers={this.state.bankAccountNumbers}/>
             </div>
         )
     }

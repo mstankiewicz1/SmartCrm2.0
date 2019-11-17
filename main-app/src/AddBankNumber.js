@@ -1,0 +1,46 @@
+import React from 'react';
+
+class AddBankNumber extends React.Component {
+
+    state = {
+        number: '',
+    };
+
+
+    handleNumber = (e) => {
+        this.setState({
+            number: e.target.value,
+        })
+    };
+
+
+    handleClick = () => {
+
+        const {number} = this.state;
+
+        if (number.length > 26) {
+            const add = this.props.addNumber(number);
+            if (add) {
+                this.setState({
+                    number: '',
+                })
+            }
+        } else {
+            alert("Numer rachunku powinien mieć 26 cyfr");
+        }
+    };
+
+    render() {
+        return (
+            <div className="notesAndPreferencesUser">
+                <div className="PrivateNotesArea">
+                    <input className="textAreaNotes" type="number" maxLength="26" placeholder="Wpisz numer rachunku bankowego" value={this.state.number}
+                           onChange={this.handleNumber}/>
+                    <button className="addPrivateNotesButton" onClick={this.handleClick}>Dodaj numer rachunku</button>
+                </div>
+            </div>
+        );
+    }
+}
+
+export default AddBankNumber;
