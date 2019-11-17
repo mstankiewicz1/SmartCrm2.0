@@ -3,7 +3,7 @@ import './css/style.css';
 import UsersList from './UsersList';
 import Search from './Search';
 import AddUser from './AddUser';
-import AddNotesOnUser from "./addNotesOnUser";
+import Notes from "./Notes";
 
 
 const allUsers = [
@@ -109,10 +109,11 @@ const allUsers = [
 
 class App extends React.Component {
 
-    /*counter = 5;*/
+    counter = 0;
 
     state = {
               filteredUsers: allUsers,
+              privateNotes: []
          };
 
 
@@ -134,6 +135,24 @@ class App extends React.Component {
           filteredUsers: [],
       })
     };
+
+    addNotes = (text) => {
+        const note = {
+            id: this.counter,
+            text,
+        };
+        this.counter++;
+
+        this.setState(prevState =>({
+            privateNotes: [...prevState.privateNotes, note]
+            })
+        );
+
+        return true
+    };
+
+
+
 
     /*addNewUser = (name, surname, pesel, mobilePhone, landlinePhone, email) => {
 
@@ -158,11 +177,14 @@ class App extends React.Component {
 
 
     render() {
+
+        console.log(this.state.privateNotes);
+
         return (
             <div className="app">
                     <Search change={this.filterUsers}/>
                     <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
-                    <AddNotesOnUser/>
+                    <Notes add={this.addNotes}/>
                 {/*<AddUser add={this.addNewUser}/>*/}
             </div>
         )
