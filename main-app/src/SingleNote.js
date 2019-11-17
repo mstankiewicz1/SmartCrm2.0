@@ -12,6 +12,7 @@ const SingleNote = (props) => {
                     <p>{text}</p>
                 </p>
             </div>
+
         )
 };
 

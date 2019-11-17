@@ -32,9 +32,11 @@ class Notes extends React.Component {
 
     render() {
         return (
-            <div className="form">
-                <input type="text" placeholder="Wpisz prywatną notatkę" value={this.state.text} onChange={this.handleText}/>
-                <button className="addButton" onClick={this.handleClick}>Dodaj notatkę</button>
+            <div className="notesAndPreferencesUser">
+                <div className="PrivateNotesArea">
+                    <textarea className="textAreaNotes" placeholder="Wpisz prywatną notatkę" rows="10" cols="25" value={this.state.text} onChange={this.handleText}/>
+                    <button className="addPrivateNotesButton" onClick={this.handleClick}>Dodaj notatkę</button>
+                </div>
             </div>
         );
     }

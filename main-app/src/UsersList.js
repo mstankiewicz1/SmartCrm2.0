@@ -77,13 +77,6 @@ const UsersList = (props) => {
                                 </div>
                             </div>
                         </div>
-                        <div className="notesAndPreferencesUser">
-                            <div className="PrivateNotesArea">
-                                <textarea className="textAreaNotes" rows="10" cols="25" placeholder="Wpisz prywatna notatkę">
-                                </textarea>
-                                <button className="addPrivateNotesButton">Dodaj notatkę</button>
-                            </div>
-                        </div>
                     </div>
         )
     }
