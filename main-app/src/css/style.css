@@ -262,4 +262,18 @@ input.search {
     line-height: 0.2cm;
 }
 
+/*///////////////////////////////*/
+
+.HistoryBankNumbers {
+    margin-top: 101px;
+    margin-left: 0;
+    width: 20%;
+    background-color: yellow;
+    height: 17.5vh;
+    border: 2px solid pink;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 

@@ -12,8 +12,8 @@ const BankNumbersList = (props) => {
     );
 
     return (
-        <div className="HistoryNotes">
-            <div className="historyNotesDetail">
+        <div className="HistoryBankNumbers">
+            <div className="historyBankNumbersDetail">
                 <h4>Lista rachunków</h4>
                 {number.slice(0,3).length > 0 ? number.slice(0,3) : "brak aktywnych rachunków"}
             </div>
