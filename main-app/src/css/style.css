@@ -276,4 +276,24 @@ input.search {
     justify-content: center;
 }
 
+/*////////////// sprawy ////////////////////////*/
+
+.formIssues {
+    width: 20%;
+    background-color: darkred;
+    float: left;
+    height: 40vh;
+    border: 2px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 23.5vh;
+    left: 20vw;
+}
+
+.titleIssues, .selectCategoryIssues, .caseArea, .signCheckbox, .addContactButton {
+    display: block;
+}
+
 

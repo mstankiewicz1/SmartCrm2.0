@@ -27,9 +27,9 @@ class Issues extends React.Component {
 
         const {title, category, text, important} = this.state;
 
-        const addIssues = this.props.add(title, category, text, important);
+        const addCase = this.props.addCase(title, category, text, important);
 
-        if(addIssues){
+        if(addCase){
             this.setState({
                 title: '',
                 category: '',
@@ -41,9 +41,9 @@ class Issues extends React.Component {
 
 
     render(){
-        return <div className="form">
-                    <h2>Dodaj sprawę</h2>
+        return <div className="formIssues">
                         <fieldset>
+                            <h4>Dodaj sprawę</h4>
                             <input name="title" className="titleIssues" type="text" placeholder="Wpisz tytuł sprawy" value={this.state.title}
                                    onChange={this.handleChange}/>
                             <select name="category" className="selectCategoryIssues" value={this.state.category}
@@ -54,7 +54,7 @@ class Issues extends React.Component {
                                 <option value="Dywidendy">Dywidendy</option>
                                 <option value="Inne">Inne</option>
                             </select>
-                            <textarea name="text" placeholder="Opisz sprawę" value={this.state.text}
+                            <textarea name="text" className="caseArea" placeholder="Opisz sprawę" value={this.state.text}
                                    onChange={this.handleChange}/>
                             <input className="signCheckbox" name="important" type="checkbox" checked={this.state.checked}
                                    id="important"
