@@ -1,0 +1,70 @@
+import React from 'react';
+
+
+class Issues extends React.Component {
+
+
+    state = {
+        title: '',
+        category: '',
+        text: '',
+        important: false
+    };
+
+    handleChange = (e) => {
+        if (e.target.type === "checkbox") {
+            this.setState({
+                [e.target.name]: e.target.checked
+            })
+        } else {
+            this.setState({
+                [e.target.name]: e.target.value
+            })
+        }
+    };
+
+    handleClick = () => {
+
+        const {title, category, text, important} = this.state;
+
+        const addIssues = this.props.add(title, category, text, important);
+
+        if(addIssues){
+            this.setState({
+                title: '',
+                category: '',
+                text: '',
+                important: false
+            })
+        }
+    };
+
+
+    render(){
+        return <div className="form">
+                    <h2>Dodaj sprawę</h2>
+                        <fieldset>
+                            <input name="title" className="titleIssues" type="text" placeholder="Wpisz tytuł sprawy" value={this.state.title}
+                                   onChange={this.handleChange}/>
+                            <select name="category" className="selectCategoryIssues" value={this.state.category}
+                                    onChange={this.handleChange}>
+                                <option>Rodzaj Sprawy</option>
+                                <option value="Rachunki Inwestycyjne">Rachunki Inwestycyjne</option>
+                                <option value="Umowy cywilno-prawne">Umowy cywilno-prawne</option>
+                                <option value="Dywidendy">Dywidendy</option>
+                                <option value="Inne">Inne</option>
+                            </select>
+                            <textarea name="text" placeholder="Opisz sprawę" value={this.state.text}
+                                   onChange={this.handleChange}/>
+                            <input className="signCheckbox" name="important" type="checkbox" checked={this.state.checked}
+                                   id="important"
+                                   onChange={this.handleChange}/>
+                            <label className="important" htmlFor="important">Priorytet</label>
+                            <br/>
+                            <button className="addContactButton" type="submit" onClick={this.handleClick}>Dodaj Sprawę</button>
+                        </fieldset>
+                </div>;
+    }
+}
+
+export default Issues;

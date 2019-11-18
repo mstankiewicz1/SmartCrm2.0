@@ -6,6 +6,7 @@ import Notes from './Notes';
 import NotesList from './NotesList';
 import AddBankNumber from './AddBankNumber';
 import BankNumbersList from './BankNumbersList';
+import Issues from "./Issues";
 
 
 const allUsers = [
@@ -116,7 +117,7 @@ class App extends React.Component {
     state = {
               filteredUsers: allUsers,
               privateNotes: [],
-              bankAccountNumbers: []
+              bankAccountNumbers: [],
          };
 
 
@@ -181,6 +182,7 @@ class App extends React.Component {
                     <NotesList list={this.state.privateNotes}/>
                     <AddBankNumber addNumber={this.addBankNumber}/>
                     <BankNumbersList listNumbers={this.state.bankAccountNumbers}/>
+                    <Issues/>
             </div>
         )
     }

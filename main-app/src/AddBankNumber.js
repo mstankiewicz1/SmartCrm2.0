@@ -22,7 +22,7 @@ class AddBankNumber extends React.Component {
 
         const {number} = this.state;
 
-        if (number.length > 4) {
+        if (number.length === 26) {
             const add = this.props.addNumber(number);
             if (add) {
                 this.setState({
@@ -33,6 +33,7 @@ class AddBankNumber extends React.Component {
             alert("Numer rachunku powinien mieć 26 cyfr");
         }
     };
+
 
     render() {
         return (
