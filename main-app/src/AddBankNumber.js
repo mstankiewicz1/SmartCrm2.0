@@ -8,8 +8,12 @@ class AddBankNumber extends React.Component {
 
 
     handleNumber = (e) => {
+
+        const { value, maxLength } = e.target;
+        const number = value.slice(0, maxLength);
+
         this.setState({
-            number: e.target.value,
+            number,
         })
     };
 
@@ -18,7 +22,7 @@ class AddBankNumber extends React.Component {
 
         const {number} = this.state;
 
-        if (number.length > 26) {
+        if (number.length > 4) {
             const add = this.props.addNumber(number);
             if (add) {
                 this.setState({
