@@ -46,7 +46,7 @@ class Issues extends React.Component {
                             <h4>Dodaj sprawę</h4>
                             <input name="title" className="titleIssues" type="text" placeholder="Wpisz tytuł sprawy" value={this.state.title}
                                    onChange={this.handleChange}/>
-                            <select name="category" className="selectCategoryIssues" value={this.state.category}
+                            <select name="category" typeof="text" className="selectCategoryIssues" value={this.state.category}
                                     onChange={this.handleChange}>
                                 <option>Rodzaj Sprawy</option>
                                 <option value="Rachunki Inwestycyjne">Rachunki Inwestycyjne</option>
