@@ -20,7 +20,7 @@ const SingleIssue = (props) => {
                                 <td><strong style={important ? style : null}>{title} </strong></td>
                                 <td><strong style={important ? style : null}>{category}</strong></td>
                                 <td><strong style={important ? style : null}>{text}</strong></td>
-                                <td><button className="buttonBought" onClick={() => props.change(id)}>KUPIONE</button></td>
+                                <td><button className="finishCase" onClick={() => props.change(id)}>Zakończ sprawę</button></td>
                             </tr>
                         </tbody>
                     </table>

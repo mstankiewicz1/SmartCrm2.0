@@ -61,7 +61,7 @@ class AddIssues extends React.Component {
                                    onChange={this.handleChange}/>
                             <label className="important" htmlFor="important">Priorytet</label>
                             <br/>
-                            <button className="addContactButton" type="submit" onClick={this.handleClick}>Dodaj Sprawę</button>
+                            <button className="addIssueButton" type="submit" onClick={this.handleClick}>Dodaj Sprawę</button>
                         </fieldset>
                 </div>;
     }

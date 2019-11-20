@@ -24,15 +24,15 @@ const IssuesList = (props) => {
     );
 
     return (
-        <div className="thingList">
+        <div className="issuesList">
             <div className="active">
-                <h2>Sprawy w toku <em>({active.length})</em></h2>
+                <h4>Sprawy w toku <em>({active.length})</em></h4>
                 {issuesActive.length > 0  ? issuesActive : <p className="communicateNoIssues">Brak spraw</p>}
             </div>
 
 
             <div className="done">
-                <h2>Sprawy zakończone <em>({done.length})</em></h2>
+                <h4>Sprawy zakończone <em>({done.length})</em></h4>
                 {issuesDone}
             </div>
         </div>
