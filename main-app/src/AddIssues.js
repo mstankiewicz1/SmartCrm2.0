@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Issues extends React.Component {
+class AddIssues extends React.Component {
 
 
     state = {
@@ -67,4 +67,4 @@ class Issues extends React.Component {
     }
 }
 
-export default Issues;
+export default AddIssues;

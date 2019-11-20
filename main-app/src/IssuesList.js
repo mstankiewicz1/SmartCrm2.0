@@ -4,7 +4,17 @@ import SingleIssue from './SingleIssue';
 const IssuesList = (props) => {
 
 
-    const cases = props.listCases.map(singleCase =>
+    const active = props.listCases.filter(singleCase => singleCase.active);
+    const done = props.listCases.filter(singleCase => !singleCase.active);
+
+    const issuesActive = active.map(singleCase =>
+        <SingleIssue
+            key={singleCase.id}
+            singleCase={singleCase}
+        />
+    );
+
+    const issuesDone = done.map(singleCase =>
         <SingleIssue
             key={singleCase.id}
             singleCase={singleCase}
@@ -14,8 +24,14 @@ const IssuesList = (props) => {
     return (
         <div className="thingList">
             <div className="active">
-                <h2>Lista spraw <em>({cases.length})</em></h2>
-                {cases.length > 0  ? cases : <p className="comunicatNoThings">Brak rzeczy do kupienia</p>}
+                <h2>Sprawy w toku <em>({active.length})</em></h2>
+                {issuesActive.length > 0  ? issuesActive : <p className="comunicatNoThings">Brak spraw</p>}
+            </div>
+
+
+            <div className="done">
+                <h2>Sprawy zakończone <em>({done.length})</em></h2>
+                {issuesDone}
             </div>
         </div>
     )

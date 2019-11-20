@@ -6,7 +6,7 @@ import Notes from './Notes';
 import NotesList from './NotesList';
 import AddBankNumber from './AddBankNumber';
 import BankNumbersList from './BankNumbersList';
-import Issues from './Issues';
+import AddIssues from './AddIssues';
 import IssuesList from './IssuesList';
 
 
@@ -201,7 +201,7 @@ class App extends React.Component {
                     <NotesList list={this.state.privateNotes}/>
                     <AddBankNumber addNumber={this.addBankNumber}/>
                     <BankNumbersList listNumbers={this.state.bankAccountNumbers}/>
-                    <Issues addCase={this.addCases}/>
+                    <AddIssues addCase={this.addCases}/>
                     <IssuesList listCases={this.state.issues}/>
             </div>
         )
