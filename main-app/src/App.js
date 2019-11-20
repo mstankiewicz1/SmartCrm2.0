@@ -183,12 +183,25 @@ class App extends React.Component {
             category,
             text,
             important,
+            active: true,
         };
         this.counter++;
         this.setState({
             issues: [...this.state.issues, singleCase]
         });
         return true;
+    };
+
+    changeCaseStatus = (id) => {
+        const issues = [...this.state.issues];
+        issues.forEach(singleCase => {
+            if(singleCase.id === id){
+                singleCase.active = false;
+            }
+        });
+        this.setState({
+            issues
+        })
     };
 
 
@@ -202,7 +215,7 @@ class App extends React.Component {
                     <AddBankNumber addNumber={this.addBankNumber}/>
                     <BankNumbersList listNumbers={this.state.bankAccountNumbers}/>
                     <AddIssues addCase={this.addCases}/>
-                    <IssuesList listCases={this.state.issues}/>
+                    <IssuesList listCases={this.state.issues} change={this.changeCaseStatus}/>
             </div>
         )
     }

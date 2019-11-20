@@ -11,6 +11,7 @@ const IssuesList = (props) => {
         <SingleIssue
             key={singleCase.id}
             singleCase={singleCase}
+            change={props.change}
         />
     );
 
@@ -18,6 +19,7 @@ const IssuesList = (props) => {
         <SingleIssue
             key={singleCase.id}
             singleCase={singleCase}
+            change={props.change}
         />
     );
 
@@ -25,7 +27,7 @@ const IssuesList = (props) => {
         <div className="thingList">
             <div className="active">
                 <h2>Sprawy w toku <em>({active.length})</em></h2>
-                {issuesActive.length > 0  ? issuesActive : <p className="comunicatNoThings">Brak spraw</p>}
+                {issuesActive.length > 0  ? issuesActive : <p className="communicateNoIssues">Brak spraw</p>}
             </div>
 
 
