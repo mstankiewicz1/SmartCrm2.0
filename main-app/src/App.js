@@ -9,6 +9,7 @@ import BankNumbersList from './BankNumbersList';
 import AddIssues from './AddIssues';
 import IssuesList from './IssuesList';
 import AddContact from './AddContact';
+import ContactsList from './ContactsList';
 
 
 const allUsers = [
@@ -224,6 +225,18 @@ class App extends React.Component {
         return true;
     };
 
+    changeContactStatus = (id) => {
+        const contacts = [...this.state.contacts];
+        contacts.forEach(singleContact => {
+            if(singleContact.id === id){
+                singleContact.active = false;
+            }
+        });
+        this.setState({
+            contacts
+        })
+    };
+
 
     render() {
         return (
@@ -237,6 +250,7 @@ class App extends React.Component {
                     <AddIssues addCase={this.addCases}/>
                     <IssuesList listCases={this.state.issues} change={this.changeCaseStatus}/>
                     <AddContact addContact={this.addContact}/>
+                    <ContactsList listContacts={this.state.contacts} change={this.changeContactStatus}/>
             </div>
         )
     }

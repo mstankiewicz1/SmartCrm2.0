@@ -20,21 +20,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="228" column="16" lean-forward="true" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
+            <state relative-caret-position="495">
+              <caret line="244" column="90" lean-forward="true" selection-start-line="244" selection-start-column="90" selection-end-line="244" selection-end-column="90" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-app/src/Search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -61,24 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddIssues.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-app/src/AddIssues.js">
+      <file leaf-file-name="IssuesList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-app/src/IssuesList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="69" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="158">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IssuesList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-app/src/IssuesList.js">
+      <file leaf-file-name="SingleIssue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-app/src/SingleIssue.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-160">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,11 +83,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ContactsList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-app/src/ContactsList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleContact.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main-app/src/SingleContact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-app/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="311" column="0" lean-forward="true" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+            <state relative-caret-position="318">
+              <caret line="338" column="28" lean-forward="true" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -139,13 +151,15 @@
         <option value="$PROJECT_DIR$/main-app/src/AddBankNumber.js" />
         <option value="$PROJECT_DIR$/main-app/src/SingleCase.js" />
         <option value="$PROJECT_DIR$/main-app/src/Issues.js" />
-        <option value="$PROJECT_DIR$/main-app/src/SingleIssue.js" />
         <option value="$PROJECT_DIR$/main-app/src/AddIssues.js" />
         <option value="$PROJECT_DIR$/main-app/src/doneIssue.js" />
         <option value="$PROJECT_DIR$/main-app/src/activeIssue.js" />
         <option value="$PROJECT_DIR$/main-app/src/IssuesList.js" />
         <option value="$PROJECT_DIR$/main-app/src/AddContact.js" />
+        <option value="$PROJECT_DIR$/main-app/src/SingleIssue.js" />
         <option value="$PROJECT_DIR$/main-app/src/App.js" />
+        <option value="$PROJECT_DIR$/main-app/src/ContactsList.js" />
+        <option value="$PROJECT_DIR$/main-app/src/SingleContact.js" />
         <option value="$PROJECT_DIR$/main-app/src/css/style.css" />
       </list>
     </option>
@@ -313,12 +327,12 @@
       <workItem from="1573998189991" duration="21922000" />
       <workItem from="1574096861124" duration="18060000" />
       <workItem from="1574205498446" duration="258000" />
-      <workItem from="1574275094766" duration="10093000" />
+      <workItem from="1574275094766" duration="11120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175681000" />
+    <option name="totallyTimeSpent" value="176708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -375,21 +389,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main-app/src/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -659,36 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/SingleIssue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/NotesList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/SingleNote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/IssuesList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -703,16 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="228" column="16" lean-forward="true" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/AddContact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -721,10 +684,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/SingleNote.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/SingleIssue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="244" column="90" lean-forward="true" selection-start-line="244" selection-start-column="90" selection-end-line="244" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/IssuesList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/SingleContact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/ContactsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="26" column="36" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="311" column="0" lean-forward="true" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+        <state relative-caret-position="318">
+          <caret line="338" column="28" lean-forward="true" selection-start-line="338" selection-start-column="28" selection-end-line="338" selection-end-column="28" />
           <folding />
         </state>
       </provider>
