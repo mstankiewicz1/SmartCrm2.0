@@ -342,3 +342,31 @@ input.search {
     left: 40vw;
 }
 
+.formSale {
+    width: 20%;
+    background-color: darkred;
+    float: left;
+    height: 40vh;
+    border: 2px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 23.5vh;
+    left: 60vw;
+}
+
+.saleList {
+    width: 20%;
+    background-color: darkred;
+    float: left;
+    height: 30vh;
+    border: 2px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 65vh;
+    left: 60vw;
+}
+

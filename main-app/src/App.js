@@ -10,6 +10,8 @@ import AddIssues from './AddIssues';
 import IssuesList from './IssuesList';
 import AddContact from './AddContact';
 import ContactsList from './ContactsList';
+import AddSale from './AddSale';
+import SaleList from './SaleList';
 
 
 const allUsers = [
@@ -123,6 +125,7 @@ class App extends React.Component {
               bankAccountNumbers: [],
               issues: [],
               contacts: [],
+              sale: [],
          };
 
 
@@ -146,6 +149,7 @@ class App extends React.Component {
           bankAccountNumbers: [],
           issues: [],
           contacts: [],
+          sale: [],
       })
     };
 
@@ -237,6 +241,35 @@ class App extends React.Component {
         })
     };
 
+    addSale = (title, category, text, important) => {
+
+        const singleSale = {
+            id: this.counter,
+            title,
+            category,
+            text,
+            important,
+            active: true,
+        };
+        this.counter++;
+        this.setState({
+            sale: [...this.state.sale, singleSale]
+        });
+        return true;
+    };
+
+    changeSaleStatus = (id) => {
+        const sale = [...this.state.sale];
+        sale.forEach(singleSale => {
+            if(singleSale.id === id){
+                singleSale.active = false;
+            }
+        });
+        this.setState({
+            sale
+        })
+    };
+
 
     render() {
         return (
@@ -251,6 +284,8 @@ class App extends React.Component {
                     <IssuesList listCases={this.state.issues} change={this.changeCaseStatus}/>
                     <AddContact addContact={this.addContact}/>
                     <ContactsList listContacts={this.state.contacts} change={this.changeContactStatus}/>
+                    <AddSale addSale={this.addSale}/>
+                    <SaleList listSale={this.state.sale} change={this.changeSaleStatus}/>
             </div>
         )
     }
