@@ -8,6 +8,7 @@ import AddBankNumber from './AddBankNumber';
 import BankNumbersList from './BankNumbersList';
 import AddIssues from './AddIssues';
 import IssuesList from './IssuesList';
+import AddContact from './AddContact';
 
 
 const allUsers = [
@@ -119,7 +120,8 @@ class App extends React.Component {
               filteredUsers: allUsers,
               privateNotes: [],
               bankAccountNumbers: [],
-              issues: []
+              issues: [],
+              contacts: [],
          };
 
 
@@ -142,6 +144,7 @@ class App extends React.Component {
           privateNotes: [],
           bankAccountNumbers: [],
           issues: [],
+          contacts: [],
       })
     };
 
@@ -204,6 +207,23 @@ class App extends React.Component {
         })
     };
 
+    addContact = (title, category, text, important) => {
+
+        const singleContact = {
+            id: this.counter,
+            title,
+            category,
+            text,
+            important,
+            active: true,
+        };
+        this.counter++;
+        this.setState({
+            contacts: [...this.state.contacts, singleContact]
+        });
+        return true;
+    };
+
 
     render() {
         return (
@@ -216,6 +236,7 @@ class App extends React.Component {
                     <BankNumbersList listNumbers={this.state.bankAccountNumbers}/>
                     <AddIssues addCase={this.addCases}/>
                     <IssuesList listCases={this.state.issues} change={this.changeCaseStatus}/>
+                    <AddContact addContact={this.addContact}/>
             </div>
         )
     }
