@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Search = (props) => {
@@ -15,6 +16,7 @@ const Search = (props) => {
             <div className="logSection">
                 <p>Logowanie</p>
             </div>
+            <Link to="/Issues"><button>Sprawy</button></Link>
         </div>
     )
 };

@@ -6,7 +6,6 @@ import Notes from './Notes';
 import NotesList from './NotesList';
 import AddBankNumber from './AddBankNumber';
 import BankNumbersList from './BankNumbersList';
-import AddIssues from './AddIssues';
 import IssuesList from './IssuesList';
 import AddContact from './AddContact';
 import ContactsList from './ContactsList';
@@ -280,7 +279,6 @@ class App extends React.Component {
                     <NotesList list={this.state.privateNotes}/>
                     <AddBankNumber addNumber={this.addBankNumber}/>
                     <BankNumbersList listNumbers={this.state.bankAccountNumbers}/>
-                    <AddIssues addCase={this.addCases}/>
                     <IssuesList listCases={this.state.issues} change={this.changeCaseStatus}/>
                     <AddContact addContact={this.addContact}/>
                     <ContactsList listContacts={this.state.contacts} change={this.changeContactStatus}/>
