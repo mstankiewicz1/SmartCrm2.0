@@ -280,7 +280,6 @@ class App extends React.Component {
                     <AddBankNumber addNumber={this.addBankNumber}/>
                     <BankNumbersList listNumbers={this.state.bankAccountNumbers}/>
                     <IssuesList listCases={this.state.issues} change={this.changeCaseStatus}/>
-                    <AddContact addContact={this.addContact}/>
                     <ContactsList listContacts={this.state.contacts} change={this.changeContactStatus}/>
                     <AddSale addSale={this.addSale}/>
                     <SaleList listSale={this.state.sale} change={this.changeSaleStatus}/>

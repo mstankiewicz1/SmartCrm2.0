@@ -17,6 +17,7 @@ const Search = (props) => {
                 <p>Logowanie</p>
             </div>
             <Link to="/Issues"><button>Sprawy</button></Link>
+            <Link to="/Contact"><button>Kontakty</button></Link>
         </div>
     )
 };
