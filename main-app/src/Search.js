@@ -18,6 +18,7 @@ const Search = (props) => {
             </div>
             <Link to="/Issues"><button>Sprawy</button></Link>
             <Link to="/Contact"><button>Kontakty</button></Link>
+            <Link to="/Sale"><button>Sprzedaż</button></Link>
         </div>
     )
 };
