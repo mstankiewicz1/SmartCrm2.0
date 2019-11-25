@@ -6,9 +6,7 @@ import Notes from './Notes';
 import NotesList from './NotesList';
 import AddBankNumber from './AddBankNumber';
 import BankNumbersList from './BankNumbersList';
-import IssuesList from './IssuesList';
-import ContactsList from './ContactsList';
-import SaleList from './SaleList';
+import AddActivity from './AddActivity';
 
 
 const allUsers = [
@@ -180,7 +178,7 @@ class App extends React.Component {
         return true
     };
 
-    addCases = (title, category, text, important) => {
+    addCase = (title, category, text, important) => {
 
         const singleCase = {
             id: this.counter,
@@ -195,18 +193,6 @@ class App extends React.Component {
             issues: [...this.state.issues, singleCase]
         });
         return true;
-    };
-
-    changeCaseStatus = (id) => {
-        const issues = [...this.state.issues];
-        issues.forEach(singleCase => {
-            if(singleCase.id === id){
-                singleCase.active = false;
-            }
-        });
-        this.setState({
-            issues
-        })
     };
 
     addContact = (title, category, text, important) => {
@@ -226,17 +212,6 @@ class App extends React.Component {
         return true;
     };
 
-    changeContactStatus = (id) => {
-        const contacts = [...this.state.contacts];
-        contacts.forEach(singleContact => {
-            if(singleContact.id === id){
-                singleContact.active = false;
-            }
-        });
-        this.setState({
-            contacts
-        })
-    };
 
     addSale = (title, category, text, important) => {
 
@@ -255,18 +230,6 @@ class App extends React.Component {
         return true;
     };
 
-    changeSaleStatus = (id) => {
-        const sale = [...this.state.sale];
-        sale.forEach(singleSale => {
-            if(singleSale.id === id){
-                singleSale.active = false;
-            }
-        });
-        this.setState({
-            sale
-        })
-    };
-
 
     render() {
         return (
@@ -274,12 +237,10 @@ class App extends React.Component {
                     <Search change={this.filterUsers}/>
                     <UsersList users={this.state.filteredUsers} delete={this.deleteUser}/>
                     <Notes add={this.addNotes}/>
+                    <AddActivity/>
                     <NotesList list={this.state.privateNotes}/>
                     <AddBankNumber addNumber={this.addBankNumber}/>
                     <BankNumbersList listNumbers={this.state.bankAccountNumbers}/>
-                    <IssuesList listCases={this.state.issues} change={this.changeCaseStatus}/>
-                    <ContactsList listContacts={this.state.contacts} change={this.changeContactStatus}/>
-                    <SaleList listSale={this.state.sale} change={this.changeSaleStatus}/>
             </div>
         )
     }

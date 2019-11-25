@@ -12,10 +12,12 @@ const BankNumbersList = (props) => {
     );
 
     return (
-        <div className="HistoryBankNumbers">
-            <div className="historyBankNumbersDetail">
-                <h4>Lista rachunków</h4>
-                {number.slice(0,3).length > 0 ? number.slice(0,3) : "brak aktywnych rachunków"}
+        <div className="notesAndPreferencesUser">
+            <div className="HistoryBankNumbers">
+                <div className="historyBankNumbersDetail">
+                    <h4>Lista rachunków</h4>
+                    {number.slice(0,3).length > 0 ? number.slice(0,3) : "brak aktywnych rachunków"}
+                </div>
             </div>
         </div>
     )
