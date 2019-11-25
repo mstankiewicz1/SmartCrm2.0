@@ -12,7 +12,8 @@ const BankNumbersList = (props) => {
     );
 
     return (
-        <div className="notesAndPreferencesUser">
+        <div>
+            <div className="thirdActivityContainer"></div>
             <div className="HistoryBankNumbers">
                 <div className="historyBankNumbersDetail">
                     <h4>Lista rachunków</h4>

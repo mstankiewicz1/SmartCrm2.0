@@ -37,13 +37,13 @@ class AddBankNumber extends React.Component {
 
     render() {
         return (
-            <div className="notesAndPreferencesUser">
-                <div className="PrivateNotesArea">
-                    <input className="textAreaNotes" type="number" maxLength="26" placeholder="Wpisz numer rachunku" value={this.state.number}
-                           onChange={this.handleNumber}/>
-                    <button className="addPrivateNotesButton" onClick={this.handleClick}>Dodaj numer rachunku</button>
+                <div className="notesAndPreferencesUser">
+                    <div className="PrivateNotesArea">
+                        <input className="textAreaNotes" type="number" maxLength="26" placeholder="Wpisz numer rachunku" value={this.state.number}
+                               onChange={this.handleNumber}/>
+                        <button className="addPrivateNotesButton" onClick={this.handleClick}>Dodaj numer rachunku</button>
+                    </div>
                 </div>
-            </div>
         );
     }
 }

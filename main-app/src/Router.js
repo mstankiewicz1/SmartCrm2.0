@@ -18,6 +18,7 @@ class Router extends React.Component {
                 <Route path="/Issues" component={AddIssues}/>
                 <Route path="/Contact" component={AddContact}/>
                 <Route path="/Sale" component={AddSale}/>
+                <Route path="/Sale" component={AddSale}/>
                 <Route component={PageNotFound}/>
             </Switch>
         </BrowserRouter>

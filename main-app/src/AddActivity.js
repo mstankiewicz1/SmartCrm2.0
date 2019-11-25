@@ -8,9 +8,9 @@ const AddActivity = () => {
     return (
             <div className="addActivityContainer">
                 <div className="areaActivityButtons">
-                        <Link to="/Issues"><button className="activityButtons">Sprawy</button></Link>
-                        <Link to="/Contact"><button className="activityButtons">Kontakty</button></Link>
-                        <Link to="/Sale"><button className="activityButtons">Sprzedaż</button></Link>
+                        <Link to="/Issues"><button className="activityButtons">Dodaj Sprawę</button></Link>
+                        <Link to="/Contact"><button className="activityButtons">Dodaj Kontakt</button></Link>
+                        <Link to="/Sale"><button className="activityButtons">Dodaj Sprzedaż</button></Link>
                 </div>
             </div>
     )
