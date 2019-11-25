@@ -279,14 +279,25 @@ input.search {
 
 }
 
+.secondActivityContainer {
+    width: 60%;
+    background-color: yellow;
+    float: left;
+    height: 25vh;
+    border: 2px solid pink;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 /*///////////////////////////////*/
 
 .HistoryNotes {
-    margin-top: 101px;
-    margin-left: 0;
     width: 20%;
+    height: 25vh;
+    font-size: 0.95vw;
     background-color: yellow;
-    height: 28vh;
+    float: left;
     border: 2px solid pink;
     display: flex;
     align-items: flex-start;

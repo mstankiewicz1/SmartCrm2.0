@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5736c757-854b-478d-9d2f-24fc65925c4d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/main-app/src/App.js" afterPath="$PROJECT_DIR$/main-app/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/main-app/src/BankNumbersList.js" afterPath="$PROJECT_DIR$/main-app/src/BankNumbersList.js" />
-      <change beforePath="$PROJECT_DIR$/main-app/src/ContactsList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main-app/src/IssuesList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/main-app/src/AddActivity.js" afterPath="$PROJECT_DIR$/main-app/src/AddActivity.js" />
       <change beforePath="$PROJECT_DIR$/main-app/src/NotesList.js" afterPath="$PROJECT_DIR$/main-app/src/NotesList.js" />
-      <change beforePath="$PROJECT_DIR$/main-app/src/SaleList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main-app/src/Search.js" afterPath="$PROJECT_DIR$/main-app/src/Search.js" />
       <change beforePath="$PROJECT_DIR$/main-app/src/css/style.css" afterPath="$PROJECT_DIR$/main-app/src/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +22,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="237" column="90" lean-forward="false" selection-start-line="237" selection-start-column="90" selection-end-line="237" selection-end-column="90" />
+            <state relative-caret-position="240">
+              <caret line="240" column="63" lean-forward="true" selection-start-line="240" selection-start-column="63" selection-end-line="240" selection-end-column="63" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -59,8 +54,8 @@
       <file leaf-file-name="AddActivity.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/AddActivity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="160">
+              <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="48" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -68,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="245" column="1" lean-forward="true" selection-start-line="245" selection-start-column="1" selection-end-line="245" selection-end-column="1" />
+            <state relative-caret-position="189">
+              <caret line="286" column="27" lean-forward="true" selection-start-line="286" selection-start-column="27" selection-end-line="286" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddContact.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main-app/src/AddContact.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -91,8 +96,8 @@
       <file leaf-file-name="NotesList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/NotesList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="420">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -103,8 +108,8 @@
       <file leaf-file-name="AddBankNumber.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-app/src/AddBankNumber.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-382">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="780">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -155,7 +160,6 @@
         <option value="$PROJECT_DIR$/main-app/src/UsersList.js" />
         <option value="$PROJECT_DIR$/main-app/src/AddBankAccountNumber.js" />
         <option value="$PROJECT_DIR$/main-app/src/SingleBankNumber.js" />
-        <option value="$PROJECT_DIR$/main-app/src/AddBankNumber.js" />
         <option value="$PROJECT_DIR$/main-app/src/SingleCase.js" />
         <option value="$PROJECT_DIR$/main-app/src/Issues.js" />
         <option value="$PROJECT_DIR$/main-app/src/doneIssue.js" />
@@ -176,6 +180,7 @@
         <option value="$PROJECT_DIR$/main-app/src/Router.js" />
         <option value="$PROJECT_DIR$/main-app/src/Search.js" />
         <option value="$PROJECT_DIR$/main-app/src/BankNumbersList.js" />
+        <option value="$PROJECT_DIR$/main-app/src/AddBankNumber.js" />
         <option value="$PROJECT_DIR$/main-app/src/App.js" />
         <option value="$PROJECT_DIR$/main-app/src/AddActivity.js" />
         <option value="$PROJECT_DIR$/main-app/src/NotesList.js" />
@@ -349,12 +354,12 @@
       <workItem from="1574275094766" duration="14625000" />
       <workItem from="1574373836309" duration="4155000" />
       <workItem from="1574527776610" duration="3055000" />
-      <workItem from="1574631971200" duration="9574000" />
+      <workItem from="1574631971200" duration="11712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196997000" />
+    <option name="totallyTimeSpent" value="199135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -534,13 +539,6 @@
     <entry file="file://$PROJECT_DIR$/main-app/src/SinglePreferences.js" />
     <entry file="file://$PROJECT_DIR$/main-app/src/activeIssue.js" />
     <entry file="file://$PROJECT_DIR$/main-app/src/doneIssue.js" />
-    <entry file="file://$PROJECT_DIR$/main-app/src/SingleNote.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/SingleIssue.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-160">
@@ -579,14 +577,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/react-rouer-dom.js" />
-    <entry file="file://$PROJECT_DIR$/main-app/src/AddContact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -683,40 +673,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
+    <entry file="file://$PROJECT_DIR$/main-app/src/SingleNote.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="237" column="90" lean-forward="false" selection-start-line="237" selection-start-column="90" selection-end-line="237" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/AddActivity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/NotesList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main-app/src/AddBankNumber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-382">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -729,6 +689,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/AddBankNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/AddActivity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/Notes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -737,10 +715,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/NotesList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main-app/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="245" column="1" lean-forward="true" selection-start-line="245" selection-start-column="1" selection-end-line="245" selection-end-column="1" />
+        <state relative-caret-position="189">
+          <caret line="286" column="27" lean-forward="true" selection-start-line="286" selection-start-column="27" selection-end-line="286" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="240" column="63" lean-forward="true" selection-start-line="240" selection-start-column="63" selection-end-line="240" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-app/src/AddContact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding />
         </state>
       </provider>

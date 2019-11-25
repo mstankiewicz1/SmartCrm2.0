@@ -12,12 +12,15 @@ const NotesList = (props) => {
     );
 
     return (
+        <div>
             <div className="HistoryNotes">
                 <div className="historyNotesDetail">
                     <h4>Historia notatek</h4>
                     {notes.slice(0,5).length > 0 ? notes.slice(0,5) : <p>Brak notatek</p>}
                 </div>
             </div>
+            <div className="secondActivityContainer"></div>
+        </div>
     )
 };
 
