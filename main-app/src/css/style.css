@@ -266,6 +266,7 @@ input.search {
 }
 
 .areaActivityButtons {
+    width: 60%;
     margin: 0;
     background: yellow;
     position: absolute;
@@ -276,8 +277,18 @@ input.search {
     border: 2px solid red;
 }
 
-.activityButtons {
+.activityButtonsLeft {
+    width: 20%;
+    margin-right: 20%;
+}
 
+.activityButtonsCenter {
+    width: 20%;
+    margin-right: 20%;
+}
+
+.activityButtonsRight {
+    width: 20%;
 }
 
 .secondActivityContainer {
