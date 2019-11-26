@@ -3,23 +3,24 @@
 }
 
 .app {
-    background-color: green;
+    background-color: #000000;
     width: 100vw;
     height: 100vh;
+    color: white;
 }
 
 .mainContainer {
     width: 100%;
     height: 54px;
-    border: 2px solid orange;
-    background-color: blue;
+    background-color: #000000;
 }
 
 .crmName {
     width: 20%;
     height: 50px;
+    color: white;
     float: left;
-    border: 2px solid red;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center
@@ -34,7 +35,6 @@
     width: 60%;
     float: left;
     margin: 0 auto;
-    border: 2px solid black;
     position: relative;
 }
 
@@ -43,20 +43,20 @@ input.search {
     width: 240px;
     height: 40px;
     float: right;
-    vert-align: middle;
     background-color: white;
     text-align: center;
-    margin-top: 3px;
+    margin-top: 7px;
     margin-bottom: 4px;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .logSection {
     width: 20%;
     height: 50px;
+    font-weight: bold;
     float: left;
-    border: 2px solid red;
     display: flex;
     align-items: center;
     justify-content: center
@@ -69,68 +69,72 @@ input.search {
 .dataUser {
     width: 100%;
     height: 100px;
-    border: 2px solid red;
 }
 
 .dataPerson {
     width: 33.3%;
     height: 100px;
-    border: 2px solid pink;
     text-align: center;
     float: left;
-    background-color: cyan;
+    background-color: #DFDFDF;
+    color: #2D2D2D;
+    font-weight: bold;
 }
 
 .dataContact {
     width: 33.3%;
     height: 100px;
-    border: 2px solid pink;
     text-align: center;
     float: left;
-    background-color: cyan;
+    background-color: #DFDFDF;
+    color: #2D2D2D;
+    font-weight: bold;
 }
 
 .dataAccountNumber {
     width: 33.3%;
     height: 100px;
-    border: 2px solid pink;
     text-align: center;
     float: left;
-    background-color: cyan;
+    background-color: #DFDFDF;
+    color: #2D2D2D;
+    font-weight: bold;
 }
 
 .dataUserFromProps {
     width: 100%;
     height: 100px;
-    border: 2px solid red;
 }
 
 .dataPersonFromProps {
     width: 33.3%;
     height: 100px;
-    border: 2px solid pink;
     text-align: center;
     float: left;
-    background-color: cyan;
+    background-color: #DFDFDF;
+    color: #2D2D2D;
+    font-weight: bold;
 }
 
 .dataContactFromProps {
     width: 33.3%;
     height: 100px;
-    border: 2px solid pink;
     text-align: center;
     float: left;
-    background-color: cyan;
+    background-color: #DFDFDF;
     line-height: 0.25cm;
+    color: #2D2D2D;
+    font-weight: bold;
 }
 
 .dataAccountNumberFromProps {
     width: 33.3%;
     height: 100px;
-    border: 2px solid pink;
     text-align: center;
     float: left;
-    background-color: cyan;
+    background-color: #DFDFDF;
+    color: #2D2D2D;
+    font-weight: bold;
 }
 
 .cleanDataUserFromProps button {
@@ -169,7 +173,7 @@ input.search {
 }
 
 #tableFinancialData, #tableInstrumentsData {
-    border: 2px solid black;
+    border: 2px solid red;
     margin: auto;
 }
 
@@ -200,7 +204,7 @@ input.search {
 }
 
 #tableFinancialDataFromProps, #tableInstrumentsDataFromProps {
-    border: 2px solid black;
+    border: 2px solid red;
     margin: auto;
 }
 

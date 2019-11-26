@@ -8,7 +8,7 @@ const SingleBankNumber = (props) => {
 
     return (
         <div>
-            <p className="singleParagraphNote"><em>{id + 1}. </em>{number}</p>
+            <p className="singleParagraphNote">{number}</p>
         </div>
 
     )
