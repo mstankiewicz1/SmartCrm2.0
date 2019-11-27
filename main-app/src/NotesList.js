@@ -15,7 +15,7 @@ const NotesList = (props) => {
         <div>
             <div className="HistoryNotes">
                 <div className="historyNotesDetail">
-                    <h4>Historia notatek</h4>
+                    <h3>Historia notatek</h3>
                     {notes.slice(0,5).length > 0 ? notes.slice(0,5) : <p>Brak notatek</p>}
                 </div>
             </div>
