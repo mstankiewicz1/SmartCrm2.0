@@ -142,7 +142,7 @@ input.search {
     width: 180px;
     height: 40px;
     vert-align: middle;
-    background-color: white;
+    background-color: #55080A;
     text-align: center;
     margin-top: 3px;
     margin-bottom: 4px;
@@ -150,7 +150,11 @@ input.search {
     border-radius: 5px;
     position: absolute;
     top: 5px;
-    left: 600px
+    left: 600px;
+    border: 3px solid #EF1E21;
+    color: white;
+    font-weight: bold;
+
 }
 
 .incomeSection {
