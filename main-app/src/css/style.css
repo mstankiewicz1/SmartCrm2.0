@@ -137,7 +137,7 @@ input.search {
     font-weight: bold;
 }
 
-.cleanDataUserFromProps button {
+.cleanDataUserFromProps button{
     display: block;
     width: 180px;
     height: 40px;
@@ -154,7 +154,11 @@ input.search {
     border: 3px solid #EF1E21;
     color: white;
     font-weight: bold;
+}
 
+.cleanDataUserFromProps button:hover {
+    background-color: #EF1E21;
+    transition-duration: .5s;
 }
 
 .incomeSection {
@@ -263,6 +267,11 @@ input.search {
     background-color: #2D2D2D;
 }
 
+.addPrivateNotesButton:hover {
+    background-color: #92784F;
+    transition-duration: .5s;
+}
+
 .PrivateAreaBankNumber {
     width: 85%;
     height: 69%;
@@ -292,6 +301,11 @@ input.search {
     border: 3px solid #92784F;
     color: white;
     background-color: #2D2D2D;
+}
+
+.addBankNumberButton:hover {
+    background-color: #92784F;
+    transition-duration: .5s;
 }
 
 /*//////////// addActivityContainer /////////*/
@@ -329,6 +343,11 @@ input.search {
     border-radius: 5px;
 }
 
+.activityButtonsLeft:hover {
+    background-color: #92784F;
+    transition-duration: .5s;
+}
+
 .activityButtonsCenter {
     width: 25%;
     height: 6vh;
@@ -340,6 +359,11 @@ input.search {
     border-radius: 5px;
 }
 
+.activityButtonsCenter:hover {
+    background-color: #92784F;
+    transition-duration: .5s;
+}
+
 .activityButtonsRight {
     width: 25%;
     height: 6vh;
@@ -348,6 +372,11 @@ input.search {
     background-color: #2D2D2D;
     font-weight: bold;
     border-radius: 5px;
+}
+
+.activityButtonsRight:hover {
+    background-color: #92784F;
+    transition-duration: .5s;
 }
 
 .secondActivityContainer {
