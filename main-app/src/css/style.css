@@ -166,27 +166,71 @@ input.search {
     background-color: yellow;
     float: right;
     height: 76vh;
-    border: 2px solid pink;
 }
 
 .financialData {
     width: 100%;
-    height: 50%;
-    background-color: coral;
+    height: 53%;
+    background-color: #1E1E1F;
 }
+
+.financialDataHeader {
+    width: 100%;
+    height: 37.5%;
+    background-color: #2D2D2D;
+    position: relative;
+}
+
+.financialDataHeaderSpan {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #92784F;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 
 .instrumentsSection {
     width: 100%;
     background-color: deeppink;
 }
 
+.financialDataHeaderPortfolio {
+    width: 100%;
+    height: 37.5%;
+    background-color: #2D2D2D;
+    position: relative;
+}
+
+.financialDataHeaderPortfolioSpan {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #92784F;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 #tableFinancialData, #tableInstrumentsData {
-    border: 2px solid red;
     margin: auto;
+    font-weight: bold;
 }
 
 #tableFinancialData {
     width: 100%;
+    padding-left: 3px;
+    font-size: 15px;
 }
 
 #tableInstrumentsData {
