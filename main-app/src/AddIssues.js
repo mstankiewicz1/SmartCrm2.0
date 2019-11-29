@@ -42,7 +42,7 @@ class AddIssues extends React.Component {
 
     render(){
         return <div className="formIssues">
-                        <fieldset>
+                        <fieldset className="containerIssues">
                             <h4>Dodaj sprawę</h4>
                             <input name="title" className="titleIssues" type="text" placeholder="Wpisz tytuł sprawy" value={this.state.title}
                                    onChange={this.handleChange}/>

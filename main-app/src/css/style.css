@@ -525,35 +525,21 @@ h4, h3 {
 /*////////////// sprawy ////////////////////////*/
 
 .formIssues {
-    width: 20%;
-    background-color: darkred;
-    float: left;
-    height: 40vh;
-    border: 2px solid pink;
+    width: 100%;
+    background-color: #000000;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 23.5vh;
-    left: 20vw;
+}
+
+.containerIssues {
+    width: 60vw;
+    height: 85vh;
 }
 
 .titleIssues, .selectCategoryIssues, .caseArea, .signCheckbox, .addContactButton {
     display: block;
-}
-
-.issuesList {
-    width: 20%;
-    background-color: darkred;
-    float: left;
-    height: 30vh;
-    border: 2px solid pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 65vh;
-    left: 20vw;
 }
 
 .active, .done {
@@ -574,20 +560,6 @@ h4, h3 {
     left: 40vw;
 }
 
-.contactsList {
-    width: 20%;
-    background-color: darkred;
-    float: left;
-    height: 30vh;
-    border: 2px solid pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 65vh;
-    left: 40vw;
-}
-
 .formSale {
     width: 20%;
     background-color: darkred;
@@ -602,16 +574,3 @@ h4, h3 {
     left: 60vw;
 }
 
-.saleList {
-    width: 20%;
-    background-color: darkred;
-    float: left;
-    height: 30vh;
-    border: 2px solid pink;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 65vh;
-    left: 60vw;
-}
