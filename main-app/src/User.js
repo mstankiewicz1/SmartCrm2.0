@@ -33,7 +33,9 @@ const User = (props) => {
                         </div>
                         <div className="incomeSectionFromProps">
                             <div className="financialDataFromProps">
-                                <p>Dane Finansowe</p>
+                                <div className="financialDataHeaderFromProps">
+                                    <span className="financialDataHeaderSpanFromProps">Dane Finansowe</span>
+                                </div>
                                     <table id="tableFinancialDataFromProps">
                                         <tbody>
                                             <tr>
@@ -53,7 +55,9 @@ const User = (props) => {
                             </div>
                             <div className="instrumentsSectionFromProps">
                                 <div className="portfolioSectionFromProps">
-                                    <p>Skład Portfela</p>
+                                    <div className="financialDataHeaderPortfolioFromProps">
+                                        <span className="financialDataHeaderPortfolioSpanFromProps">Skład Portfela</span>
+                                    </div>
                                         <table id="tableInstrumentsDataFromProps">
                                             <tbody>
                                                 <tr>
