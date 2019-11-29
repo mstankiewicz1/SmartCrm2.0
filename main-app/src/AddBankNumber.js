@@ -38,7 +38,7 @@ class AddBankNumber extends React.Component {
     render() {
         return (
                 <div className="notesAndPreferencesUser">
-                    <div className="PrivateAreaBankNumber">
+                    <div className="privateAreaBankNumber">
                         <input className="textAreaBankNumber" type="number" maxLength="26" placeholder="Wpisz numer rachunku" value={this.state.number}
                                onChange={this.handleNumber}/>
                         <button className="addBankNumberButton" onClick={this.handleClick}>Dodaj numer rachunku</button>
