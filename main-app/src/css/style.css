@@ -505,8 +505,6 @@ input.search {
     justify-content: center;
 }
 
-/*///////////////////////////////*/
-
 .HistoryBankNumbers {
     margin-top: 101px;
     margin-left: 0;
@@ -537,21 +535,54 @@ h4, h3 {
     background-color: #2D2D2D;
     width: 60vw;
     height: 85vh;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 p.headerAddIssues {
     text-align: center;
     color: white;
-
 }
 
 .titleIssues, .selectCategoryIssues, .caseArea, .signCheckbox, .addContactButton {
     display: block;
 }
 
-.active, .done {
-    display: block;
+input.titleIssues {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 7%;
+    margin-bottom: 10px;
 }
+
+.selectCategoryIssues {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 7%;
+    margin-bottom: 10px;
+}
+
+textarea.caseArea {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 30%;
+    margin-bottom: 10px;
+
+}
+
+
+    /*//////////////////koniec sprawy /////////////////////*/
 
 .formContact {
     width: 20%;
