@@ -42,8 +42,8 @@ class AddContact extends React.Component {
 
     render(){
         return <div className="formContact">
-            <fieldset>
-                <h4>Dodaj kontakt</h4>
+            <fieldset className="containerIssues">
+                <p className="headerAddContact">Dodaj Kontakt</p>
                 <input name="title" className="titleContact" type="text" placeholder="Wpisz temat kontaktu" value={this.state.title}
                        onChange={this.handleChange}/>
                 <select name="category" typeof="text" className="selectCategoryContact" value={this.state.category}

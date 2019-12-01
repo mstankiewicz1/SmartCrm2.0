@@ -42,8 +42,8 @@ class AddSale extends React.Component {
 
     render(){
         return <div className="formSale">
-            <fieldset>
-                <h4>Dodaj sprzedaż</h4>
+            <fieldset className="containerIssues">
+                <p className="headerAddSale">Dodaj Sprzedaż</p>
                 <input name="title" className="titleSale" type="text" placeholder="Wpisz nazwę sprzedanego produktu" value={this.state.title}
                        onChange={this.handleChange}/>
                 <select name="category" typeof="text" className="selectCategorySale" value={this.state.category}

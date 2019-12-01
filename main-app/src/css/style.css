@@ -614,31 +614,192 @@ button.addIssueButton:hover {
 
     /*//////////////////koniec sprawy /////////////////////*/
 
+/*////////////////////////kontakty pocztek ///////////////*/
+
 .formContact {
-    width: 20%;
-    background-color: darkred;
-    float: left;
-    height: 40vh;
-    border: 2px solid pink;
+    width: 100%;
+    background-color: #1E1E1F;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 23.5vh;
-    left: 40vw;
 }
 
+.containerIssues {
+    background-color: #2D2D2D;
+    width: 60vw;
+    height: 85vh;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.headerAddContact {
+    text-align: center;
+    color: white;
+}
+
+.titleContact, .selectCategoryContact, .contactArea, .addContactButton {
+    display: block;
+}
+
+input.titleContact {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 7%;
+    margin-bottom: 10px;
+}
+
+.selectCategoryContact {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 7%;
+    margin-bottom: 10px;
+}
+
+textarea.contactArea {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+input.signCheckbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 45%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.important {
+    margin-left: 10px;
+    color: #EF1E21;
+}
+
+button.addContactButton {
+    width: 120px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button.addContactButton:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+}
+
+
+
+
+
+/*///////////////////koniec kontakty /////////////////////*/
+
+/*//////////////////////start sprzedaz///////////////////*/
+
 .formSale {
-    width: 20%;
-    background-color: darkred;
-    float: left;
-    height: 40vh;
-    border: 2px solid pink;
+    width: 100%;
+    background-color: #1E1E1F;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 23.5vh;
-    left: 60vw;
 }
+
+.containerIssues {
+    background-color: #2D2D2D;
+    width: 60vw;
+    height: 85vh;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p.headerAddSale {
+    text-align: center;
+    color: white;
+}
+
+.titleSale, .selectCategorySale, .saleArea, .addSaleButton {
+    display: block;
+}
+
+input.titleSale {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 7%;
+    margin-bottom: 10px;
+}
+
+.selectCategorySale {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 7%;
+    margin-bottom: 10px;
+}
+
+textarea.saleArea {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 80%;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+input.signCheckbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 45%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.important {
+    margin-left: 10px;
+    color: #EF1E21;
+}
+
+button.addSaleButton {
+    width: 120px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button.addSaleButton:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+}
+
+
+
 
