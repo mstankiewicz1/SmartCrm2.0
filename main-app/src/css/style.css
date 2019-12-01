@@ -526,7 +526,7 @@ h4, h3 {
 
 .formIssues {
     width: 100%;
-    background-color: #000000;
+    background-color: #1E1E1F;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -534,8 +534,15 @@ h4, h3 {
 }
 
 .containerIssues {
+    background-color: #2D2D2D;
     width: 60vw;
     height: 85vh;
+}
+
+p.headerAddIssues {
+    text-align: center;
+    color: white;
+
 }
 
 .titleIssues, .selectCategoryIssues, .caseArea, .signCheckbox, .addContactButton {

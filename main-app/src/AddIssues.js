@@ -43,7 +43,7 @@ class AddIssues extends React.Component {
     render(){
         return <div className="formIssues">
                         <fieldset className="containerIssues">
-                            <h4>Dodaj sprawę</h4>
+                            <p className="headerAddIssues">Dodaj sprawę</p>
                             <input name="title" className="titleIssues" type="text" placeholder="Wpisz tytuł sprawy" value={this.state.title}
                                    onChange={this.handleChange}/>
                             <select name="category" typeof="text" className="selectCategoryIssues" value={this.state.category}
