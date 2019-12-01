@@ -544,7 +544,7 @@ p.headerAddIssues {
     color: white;
 }
 
-.titleIssues, .selectCategoryIssues, .caseArea, .signCheckbox, .addContactButton {
+.titleIssues, .selectCategoryIssues, .caseArea, .addContactButton {
     display: block;
 }
 
@@ -578,8 +578,38 @@ textarea.caseArea {
     width: 80%;
     height: 30%;
     margin-bottom: 10px;
-
 }
+
+input.signCheckbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 45%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.important {
+    margin-left: 10px;
+    color: #EF1E21;
+}
+
+button.addIssueButton {
+    width: 120px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button.addIssueButton:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+}
+
 
 
     /*//////////////////koniec sprawy /////////////////////*/

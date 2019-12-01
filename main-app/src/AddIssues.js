@@ -43,7 +43,7 @@ class AddIssues extends React.Component {
     render(){
         return <div className="formIssues">
                         <fieldset className="containerIssues">
-                            <p className="headerAddIssues">Dodaj sprawę</p>
+                            <p className="headerAddIssues">Dodaj Sprawę</p>
                             <input name="title" className="titleIssues" type="text" placeholder="Wpisz tytuł sprawy" value={this.state.title}
                                    onChange={this.handleChange}/>
                             <select name="category" typeof="text" className="selectCategoryIssues" value={this.state.category}
@@ -54,7 +54,7 @@ class AddIssues extends React.Component {
                                 <option value="Dywidendy">Dywidendy</option>
                                 <option value="Inne">Inne</option>
                             </select>
-                            <textarea name="text" className="caseArea" cols={40} rows={50} placeholder="Opisz sprawę" value={this.state.text}
+                            <textarea name="text" className="caseArea" placeholder="Opisz sprawę" value={this.state.text}
                                    onChange={this.handleChange}/>
                             <input className="signCheckbox" name="important" type="checkbox" checked={this.state.checked}
                                    id="important"
