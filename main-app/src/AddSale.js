@@ -48,7 +48,7 @@ class AddSale extends React.Component {
                        onChange={this.handleChange}/>
                 <select name="category" typeof="text" className="selectCategorySale" value={this.state.category}
                         onChange={this.handleChange}>
-                    <option>Nazwa produktu</option>
+                    <option>Typ produktu</option>
                     <option value="Akcje">Akcje</option>
                     <option value="Obligacje">Obligacje</option>
                     <option value="Kontrakty terminowe">Kontrakty terminowe</option>
@@ -61,7 +61,7 @@ class AddSale extends React.Component {
                        onChange={this.handleChange}/>
                 <label className="important" htmlFor="important">Priorytet</label>
                 <br/>
-                <button className="addSaleButton" type="submit" onClick={this.handleClick}>Zarejestruj sprzedaż</button>
+                <button className="addSaleButton" type="submit" onClick={this.handleClick}>Dodaj Sprzedaż</button>
             </fieldset>
         </div>;
     }
